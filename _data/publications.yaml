@@ -1,7 +1,7 @@
 papers:
 
   - title: "The ENCODE Imputation Challenge: a critical assessment of methods for cross-cell type imputation of epigenomic profiles"
-    authors: "Jacob Schreiber‡, <b>Carles A. Boix</b>‡, Hongyang Li, Yuanfang Guan, Chun-Chieh Chang, Jen-Chien Chang, Alex Hawkins-Hooker, Bernhard Schölkopf, Gabriele Schweikert, Mateo Rojas Carulla, Arif Canakoglu, Francesco Guzzo, Luca Nanni, Marco Masseroli, Mark James Carman, Pietro Pinoli, Chenyang Hong, Kevin Y Yip, Jeffrey P Spence, Sanjit Singh Batra, Yun S Song, Shaun Mahony, Zheng Zhang, Wuwei Tan, Yang Shen, Yuanfei Sun, Minyi Shi, Jessika Adrian, Richard Sandstrom, Nina Farrell, Jessica Halow, Kristen Lee, Lixia Jiang, Xinqiong Yang, Charles Epstein, J Seth Strattan, Bradley Bernstein, Michael Snyder, Manolis Kellis, William Stafford, Anshul Kundaje"
+    authors: "Jacob Schreiber‡, <b>Carles A. Boix</b>‡, Jin wook Lee, Hongyang Li, Yuanfang Guan, Chun-Chieh Chang, Jen-Chien Chang, Alex Hawkins-Hooker, Bernhard Schölkopf, Gabriele Schweikert, Mateo Rojas Carulla, Arif Canakoglu, Francesco Guzzo, Luca Nanni, Marco Masseroli, Mark James Carman, Pietro Pinoli, Chenyang Hong, Kevin Y Yip, Jeffrey P Spence, Sanjit Singh Batra, Yun S Song, Shaun Mahony, Zheng Zhang, Wuwei Tan, Yang Shen, Yuanfei Sun, Minyi Shi, Jessika Adrian, Richard Sandstrom, Nina Farrell, Jessica Halow, Kristen Lee, Lixia Jiang, Xinqiong Yang, Charles Epstein, J Seth Strattan, Bradley Bernstein, Michael Snyder, Manolis Kellis, William Stafford, Anshul Kundaje"
     venue: "Genome Biology, 2023"
     website: "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02915-y"
     selected: y
