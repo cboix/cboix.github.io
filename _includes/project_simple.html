@@ -1,0 +1,27 @@
+<!-- _includes/project_simple.html -->
+{% assign index_modulo = forloop.index0 | modulo:3 %}
+{% if index_modulo == 0 %}
+<div class="row">
+    {% endif %}
+
+    <div class="four columns">
+        <div class="project-container">
+
+            <div class="project-image-container">
+                <a href="{{ project.url }}">
+                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                </a>
+            </div>
+
+            <div class="project-caption">
+                <b>{{ project.title }}</b> <br/>
+                {{ project.subtitle }}
+            </div>
+
+        </div>
+    </div>
+
+    {% if index_modulo == 2 %}
+</div>
+{% endif %}
+

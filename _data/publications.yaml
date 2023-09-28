@@ -1,38 +1,83 @@
 papers:
 
+  - title: "Neuronal DNA double-strand breaks lead to genome structural variations and 3D genome disruption in neurodegeneration"
+    authors: "Vishnu Dileep‡, <u>Carles A. Boix</u>‡, Hansruedi Mathys, Asaf Marco, Gwyneth Margaret Welch, Hiruy S. Meharena, Anjanet Loon, Ritika Jeloka, Zhuyu Peng, David A. Bennett, Manolis Kellis, Li-Huei Tsai"
+    website: "https://doi.org/10.1016/j.cell.2023.08.038"
+    journal: "Cell"
+    year: 2023
+    data: "http://compbio.mit.edu/ad_dna_damage/"
+    selected: y
+
+  - title: "Epigenomic dissection of Alzheimer’s disease pinpoints causal variants and reveals epigenome erosion"
+    authors: "Xushen Xiong‡, Benjamin T. James‡, <u>Carles A. Boix</u>‡, Yongjin P. Park, Kyriaki Galani, Matheus B. Victor, Na Sun, Lei Hou, Li-Lun Ho, Julio Mantero, Aine Ni Scannail, Vishnu Dileep, Weixiu Dong, Hansruedi Mathys, David A. Bennett, Li-Huei Tsai, Manolis Kellis"
+    website: "https://doi.org/10.1016/j.cell.2023.08.040"
+    journal: "Cell"
+    year: 2023
+    data: "http://compbio.mit.edu/ad_epigenome/"
+    selected: y
+
+  - title: "Single-cell atlas reveals correlates of high cognitive function, dementia, and resilience to Alzheimer’s disease pathology"
+    authors: "Hansruedi Mathys‡, Zhuyu Peng‡, <u>Carles A. Boix</u>‡, Matheus B. Victor, Noelle Leary, Sudhagar Babu, Ghada Abdelhady, Xueqiao Jiang, Ayesha P. Ng, Kimia Ghafari, Alexander K. Kunisky, Julio Mantero, Kyriaki Galani, Vanshika N. Lohia, Gabrielle E. Fortier, Yasmine Lotfi, Jason Ivey, Hannah P. Brown, Pratham R. Patel, Nehal Chakraborty, Jacob I. Beaudway, Elizabeth J. Imhoff, Cameron F. Keeler, Maren M. McChesney, Haishal H. Patel, Sahil P. Patel, Megan T. Thai, David A. Bennett, Manolis Kellis, Li-Huei Tsai"
+    website: "https://doi.org/10.1016/j.cell.2023.08.039"
+    journal: "Cell"
+    year: 2023
+    data: "http://compbio.mit.edu/ad_aging_brain/"
+    selected: y
+
+  - title: "Human Microglial State Dynamics in Alzheimer’s Disease Progression"
+    authors: "Na Sun‡, Matheus B. Victor‡, Yongjin P. Park, Xushen Xiong, Aine Ni Scannail, Noelle Leary, Shaniah Prosper, Soujanya Viswanathan, Xochitl Luna, <u>Carles A. Boix</u>, Benjamin T. James, Yosuke Tanigawa, Kyriaki Galani, Hansruedi Mathys, Xueqiao Jiang, Ayesha P. Ng, David A. Bennett, Li-Huei Tsai, Manolis Kellis"
+    website: "https://doi.org/10.1016/j.cell.2023.08.037"
+    journal: "Cell"
+    year: 2023
+    data: "http://compbio.mit.edu/microglia_states/"
+    selected: n
+
+  - title: "Multitissue H3K27ac profiling of GTEx samples links epigenomic variation to disease"
+    authors: "Lei Hou‡, Xushen Xiong‡, Yongjin Park, <u>Carles Boix</u>, Benjamin James, Na Sun, Liang He, Aman Patel, Zhizhuo Zhang, Benoit Molinie, Nicholas Van Wittenberghe, Scott Steelman, Chad Nusbaum, François Aguet, Kristin G. Ardlie & Manolis Kellis"
+    website: "https://doi.org/10.1038/s41588-023-01509-5"
+    journal: "Nature Genetics"
+    year: 2023
+    selected: n
+
   - title: "The ENCODE Imputation Challenge: a critical assessment of methods for cross-cell type imputation of epigenomic profiles"
-    authors: "Jacob Schreiber‡, <b>Carles A. Boix</b>‡, Jin wook Lee, Hongyang Li, Yuanfang Guan, Chun-Chieh Chang, Jen-Chien Chang, Alex Hawkins-Hooker, Bernhard Schölkopf, Gabriele Schweikert, Mateo Rojas Carulla, Arif Canakoglu, Francesco Guzzo, Luca Nanni, Marco Masseroli, Mark James Carman, Pietro Pinoli, Chenyang Hong, Kevin Y Yip, Jeffrey P Spence, Sanjit Singh Batra, Yun S Song, Shaun Mahony, Zheng Zhang, Wuwei Tan, Yang Shen, Yuanfei Sun, Minyi Shi, Jessika Adrian, Richard Sandstrom, Nina Farrell, Jessica Halow, Kristen Lee, Lixia Jiang, Xinqiong Yang, Charles Epstein, J Seth Strattan, Bradley Bernstein, Michael Snyder, Manolis Kellis, William Stafford, Anshul Kundaje"
-    venue: "Genome Biology, 2023"
+    authors: "Jacob Schreiber‡, <u>Carles A. Boix</u>‡, Jin wook Lee, Hongyang Li, Yuanfang Guan, Chun-Chieh Chang, Jen-Chien Chang, Alex Hawkins-Hooker, Bernhard Schölkopf, Gabriele Schweikert, Mateo Rojas Carulla, Arif Canakoglu, Francesco Guzzo, Luca Nanni, Marco Masseroli, Mark James Carman, Pietro Pinoli, Chenyang Hong, Kevin Y Yip, Jeffrey P Spence, Sanjit Singh Batra, Yun S Song, Shaun Mahony, Zheng Zhang, Wuwei Tan, Yang Shen, Yuanfei Sun, Minyi Shi, Jessika Adrian, Richard Sandstrom, Nina Farrell, Jessica Halow, Kristen Lee, Lixia Jiang, Xinqiong Yang, Charles Epstein, J Seth Strattan, Bradley Bernstein, Michael Snyder, Manolis Kellis, William Stafford, Anshul Kundaje"
+    journal: "Genome Biology"
+    year: 2023
     website: "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02915-y"
     selected: y
 
   - title: "GENCODE: reference annotation for the human and mouse genomes in 2023"
     authors: "<i>One of many in GENCODE</i>"
     website: "https://academic.oup.com/nar/article-abstract/51/D1/D942/6845433"
-    venue: "Nucleic acids research, 2023" 
+    journal: "Nucleic Acids Research" 
+    year: 2023
     selected: n
 
   - title: "Neurons burdened by DNA double-strand breaks incite microglia activation through antiviral-like signaling in neurodegeneration"
-    authors: "Gwyneth M. Welch, <b>Carles A. Boix</b>, Eloi Schmauch, Jose Davila-Velderrain, Matheus B. Victor, Vishnu Dileep, P. Lorenzo Bozzelli, Qiao Su, Jemmie D. Cheng, Audrey Lee, Noelle S. Leary, Andreas R. Pfenning, Manolis Kellis, Li-Huei Tsai"
+    authors: "Gwyneth M. Welch, <u>Carles A. Boix</u>, Eloi Schmauch, Jose Davila-Velderrain, Matheus B. Victor, Vishnu Dileep, P. Lorenzo Bozzelli, Qiao Su, Jemmie D. Cheng, Audrey Lee, Noelle S. Leary, Andreas R. Pfenning, Manolis Kellis, Li-Huei Tsai"
     website: "https://www.science.org/doi/full/10.1126/sciadv.abo4662"
-    venue: "Science Advances, 2022"
+    journal: "Science Advances"
+    year: 2023
     selected: y
 
   - title: "Single-cell mosaicism analysis reveals cell-type-specific somatic mutational burden in Alzheimer’s Dementia"
-    authors: "Maria Kousi‡, <b>Carles A. Boix</b>‡, Yongjin P. Park, Hansruedi Mathys, Samuel Sledzieski, Zhuyu Peng, David A. Bennett, Li-Huei Tsai, Manolis Kellis"
+    authors: "Maria Kousi‡, <u>Carles A. Boix</u>‡, Yongjin P. Park, Hansruedi Mathys, Samuel Sledzieski, Zhuyu Peng, David A. Bennett, Li-Huei Tsai, Manolis Kellis"
     website: "https://www.biorxiv.org/content/10.1101/2022.04.21.489103v1.abstract"
-    venue: "BioRxiv, 2022"
+    journal: "BioRxiv"
+    year: 2022
     selected: y
 
   - title: "Single-cell dissection of live human hearts in ischemic heart disease and heart failure reveals cell-type-specific driver genes and pathways" 
-    authors: "Suvi Linna-Kuosmanen‡, Eloi Schmauch‡, Kyriakitsa Galani, <b>Carles A Boix</b>, Lei Hou, Tiit Örd, Anu Toropainen, Lindsey K Stolze, Elamaran Meibalan, Julio C Mantero, Ashley Renfro, Johannes Ojanen, Leandro Z Agudelo, Maija Hollmen, Juho Jalkanen, Jarmo Gunn, Pasi Tavi, Casey E Romanoski, Calum A MacRae, Minna U Kaikkonen, Guillermo Garcia-Cardena, Tuomas Kiviniemi, Manolis Kellis"
-    venue: "BioRxiv, 2021"
+    authors: "Suvi Linna-Kuosmanen‡, Eloi Schmauch‡, Kyriakitsa Galani, <u>Carles A Boix</u>, Lei Hou, Tiit Örd, Anu Toropainen, Lindsey K Stolze, Elamaran Meibalan, Julio C Mantero, Ashley Renfro, Johannes Ojanen, Leandro Z Agudelo, Maija Hollmen, Juho Jalkanen, Jarmo Gunn, Pasi Tavi, Casey E Romanoski, Calum A MacRae, Minna U Kaikkonen, Guillermo Garcia-Cardena, Tuomas Kiviniemi, Manolis Kellis"
+    journal: "BioRxiv"
+    year: 2021
     website: "https://www.biorxiv.org/content/10.1101/2021.06.23.449672v2.abstract"
     selected: n
 
   - title: "Regulatory genomic circuitry of human disease loci by integrative epigenomics"
-    authors: "<b>Carles A. Boix</b>, Benjamin T. James, Yongjin P. Park, Wouter Meuleman, Manolis Kellis"
-    venue: "Nature, 2021"
+    authors: "<u>Carles A. Boix</u>, Benjamin T. James, Yongjin P. Park, Wouter Meuleman, Manolis Kellis"
+    journal: "Nature"
+    year: 2021
     website: "https://www.nature.com/articles/s41586-020-03145-z/"
     data: "http://compbio.mit.edu/epimap/"
     code: "https://github.com/cboix/EPIMAP_ANALYSIS"
@@ -41,24 +86,28 @@ papers:
   - title: "GENCODE 2021"
     authors: "<i>One of many in GENCODE</i>"
     website: "https://academic.oup.com/nar/article-abstract/49/D1/D916/6018430"
-    venue: "Nucleic acids research, 2021"
+    journal: "Nucleic Acids Research"
+    year: 2021
     selected: n
 
   - title: "Conserved epigenetic regulatory logic infers genes governing cell identity"
-    authors: "Woo Jun Shim, Enakshi Sinniah, Jun Xu, Burcu Vitrinel, Michael Alexanian, Gaia Andreoletti, Sophie Shen, Yuliangzi Sun, Brad Balderson, <b>Carles Boix</b>, Guangdun Peng, Naihe Jing, Yuliang Wang, Manolis Kellis, Patrick PL Tam, Aaron Smith, Michael Piper, Lionel Christiaen, Quan Nguyen, Mikael Bodén, Nathan J Palpant"
+    authors: "Woo Jun Shim, Enakshi Sinniah, Jun Xu, Burcu Vitrinel, Michael Alexanian, Gaia Andreoletti, Sophie Shen, Yuliangzi Sun, Brad Balderson, <u>Carles Boix</u>, Guangdun Peng, Naihe Jing, Yuliang Wang, Manolis Kellis, Patrick PL Tam, Aaron Smith, Michael Piper, Lionel Christiaen, Quan Nguyen, Mikael Bodén, Nathan J Palpant"
     website: "https://www.sciencedirect.com/science/article/pii/S2405471220304191"
-    venue: "Cell systems, 2020"
+    journal: "Cell systems"
+    year: 2020
     selected: n
 
   - title: "Expanded encyclopaedias of DNA elements in the human and mouse genomes"
     authors: "JE Moore, MJ Purcaro, HE Pratt, CB Epstein, N Shoresh, J Adrian, T Kawli, ... ENCODE Consortium (<i>one of many in ENCODE</i>)"
     website: "https://www.nature.com/articles/s41586-020-2493-4"
-    venue: "Nature, 2020"
+    journal: "Nature"
+    year: 2020
     selected: n
 
   - title: "Strain-level diversity drives alternative community types in millimetre-scale granular biofilms"
-    authors: "Gabriel E. Leventhal, <b>Carles A. Boix</b>, Urs Kuechler, Tim N. Enke, Elzbieta Sliwerska, Christof Holliger, Otto X. Cordero"
-    venue: "Nature Microbiology, 2018"
+    authors: "Gabriel E. Leventhal, <u>Carles A. Boix</u>, Urs Kuechler, Tim N. Enke, Elzbieta Sliwerska, Christof Holliger, Otto X. Cordero"
+    journal: "Nature Microbiology"
+    year: 2018
     website: https://www.nature.com/articles/s41564-018-0242-3
     selected: y
 

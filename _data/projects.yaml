@@ -1,7 +1,26 @@
 projects:
-####   Example:
-#   - title: "Detecting Network Effects"
-#     subtitle: "Randomizing Over Randomized Experiments"
-#     thumbnail: "assets/projects/2016_network-ab/thumbnail.jpg"
-#     url: "projects/2016_network-ab-testing.html"
-#     selected: n
+   - title: "EpiMap data/resources"
+     url: "http://compbio.mit.edu/epimap"
+     thumbnail: "assets/projects/epimap/thumbnail.png"
+     selected: y
+
+   - title: "EpiMap data browser"
+     url: "http://compbio2.mit.edu/epimap_vis"
+     thumbnail: "assets/projects/epimap/thumbnail_browser.png"
+     selected: y
+
+   - title: "Single-cell atlas of AD and aging PFC"
+     url: "http://compbio.mit.edu/ad_aging_brain"
+     thumbnail: "assets/projects/ad_aging_brain/thumbnail.png"
+     selected: y
+    
+   - title: "Single-cell epigenomic landscape of AD"
+     url: "http://compbio.mit.edu/ad_epigenome" 
+     thumbnail: "assets/projects/ad_epigenome/thumbnail.png"
+     selected: y
+
+   - title: "Genomic instability in neurodegeneration"
+     url: "http://compbio.mit.edu/ad_dna_damage"
+     thumbnail: "assets/projects/ad_dna_damage/thumbnail.png"
+     selected: y
+

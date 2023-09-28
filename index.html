@@ -6,7 +6,7 @@ title: Home
 <div class="docs-section" id="bio">
     <!-- <h4>Bio</h4> -->
     <p>
-    I am a post-doc at Harvard Medical School working for <a href="https://sunyaevlab.hms.harvard.edu/wiki/!web/start" target="_blank">Shamil Sunyaev</a>. 
+    I am a postdoc at Harvard Medical School working for <a href="https://sunyaevlab.hms.harvard.edu/wiki/!web/start" target="_blank">Shamil Sunyaev</a>. 
     </p>
 
     <p>
@@ -14,14 +14,17 @@ title: Home
     </p>
 
     <p>
-    <dl style="PADDING-LEFT: 40px">
-        <li>How endophenotypes map onto biological mechanisms in a context-specific manner</li>
-        <li>In-context proximal mechanisms and quantitative measurements of disease-associated variation</li>
-        <li>Convergence of Mendelian, rare, and common disease-associated variation onto common mechanisms</li>
-        <li>Molecular, cellular, and individual-level progression, resilience, and vulnerability to neurodegeneration</li>
-        <li>Methods for learning disentangled low-rank representations of biological processes</li>
-        <!-- <li>How selection on multiple traits influences disease risk</li> -->
-        <!-- <li>Modeling and understanding epigenomic gene regulatory circuitry</li> -->
+    <dl style="padding-left: 40px">
+        <li>Mapping molecular mechanisms to endophenotypes in a context-specific manner</li>
+        <!-- <li>Mapping molecular mechanisms to endophenotypes in a context-specific manner - in specific cellular states and in dysregulation or disease</li> -->
+        <li>Progression, resilience, and vulnerability to neurodegeneration</li>
+        <!-- <li>Modeling and understanding molecular, cellular, and individual-level progression, resilience, and vulnerability to neurodegeneration</li> -->
+        <li>Convergence of disease-associated variation onto common mechanisms</li>
+        <!-- <li>Understanding how Mendelian, rare, and common disease-associated variation converges onto common mechanisms</li> -->
+        <li>Proximal mechanisms of disease-associated variation</li>
+        <!-- <li>Understanding proximal mechanisms of disease-associated variation and linking quantitative measurements of variant effects to endophenotypes</li> -->
+        <li>Learning structured representations of molecular processes</li>
+        <!-- <li>Developing methods for learning structured representations of biological processes, endophenotypes, and molecular mechanisms</li> -->
     </dl>
     </p>
 
@@ -49,173 +52,40 @@ title: Home
     <div class="tab-pane active" id="papers-selected">
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
       {% for paper in selected_papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-
-           <div class="paper-buttons">
-               {% if paper.website %}
-               <a class="button" href="{{ paper.website }}" target="_blank"><i>{{ paper.venue }}</i></a>
-               {% else %}
-               <p><i>{{ paper.venue }}</i></p>
-               {% endif %}
-
-               {% if paper.paper_pdf %}
-               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-               {% endif %}
-
-               {% if paper.slides %}
-               <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-               {% endif %}
-
-               {% if paper.poster %}
-               <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-               {% endif %}
-
-               {% if paper.video %}
-               <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-               {% endif %}
-
-               {% if paper.code %}
-               <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-               {% endif %}
-
-               {% if paper.data %}
-               <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-               {% endif %}
-
-          </div>
-        </div>
+          {% include bib_simple.html paper=paper%}
       {% endfor %}
     </div>
 
     <div class="tab-pane" id="papers-all">
       {% for paper in site.data.publications.papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-           <div class="paper-buttons">
-               {% if paper.website %}
-               <a class="button" href="{{ paper.website }}" target="_blank"><i>{{ paper.venue }}</i></a>
-               {% else %}
-               <p><i>{{ paper.venue }}</i></p>
-               {% endif %}
-
-               {% if paper.paper_pdf %}
-               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-               {% endif %}
-
-               {% if paper.slides %}
-               <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-               {% endif %}
-
-               {% if paper.poster %}
-               <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-               {% endif %}
-
-               {% if paper.video %}
-               <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-               {% endif %}
-
-               {% if paper.code %}
-               <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-               {% endif %}
-
-               {% if paper.data %}
-               <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-               {% endif %}
-
-          </div>
-        </div>
+          {% include bib_simple.html paper=paper%}
       {% endfor %}
     </div>
   </div>
 </div>
 
+
+
 <!-- ========== PROJECTS ========== --> 
 <div class="docs-section" id="resources">
     <h4>Resources</h4>
-
-    <p>
-    <dl style="PADDING-LEFT: 40px">
-        <!-- <ul> -->
-        <li><a href="http://compbio.mit.edu/epimap" target="_blank">EpiMap data/resources</a></li>
-        <li><a href="http://compbio2.mit.edu/epimap_vis" target="_blank">EpiMap data browser</a></li>
-        <!-- </ul> -->
-    </dl>
     <!-- <br> -->
     <!-- Code can be found on <a href="{{ site.data.main_info.github }}" target="_blank">GitHub</a>. -->
     </p>
 
-    <!-- TODO: Add epimap + AD430 papers as panels later -->
-    <!--   <ul class="tab-nav"> -->
-    <!--     <li><div class="button active" data-ref="#projects-selected">Selected</div></li> -->
-    <!--     <li><div class="button" data-ref="#projects-all">All</div></li> -->
-    <!--   </ul> -->
+      <ul class="tab-nav">
+        <li><div class="button active" data-ref="#projects-all">All</div></li>
+        <!-- <li><div class="button active" data-ref="#projects-selected">Selected</div></li> -->
+      </ul>
 
-    <!--   <div class="tab-content"> -->
-    <!--     <div class="tab-pane active" id="projects-selected"> -->
-    <!--       {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %} -->
-    <!--       {% for project in selected_projects %} -->
-    <!--         {% assign index_modulo = forloop.index0 | modulo:3 %} -->
-    <!--         {% if index_modulo == 0 %} -->
-    <!--           <div class="row"> -->
-    <!--         {% endif %} -->
+      <div class="tab-content">
 
-    <!--           <div class="four columns"> -->
-    <!--             <div class="project-container"> -->
-
-    <!--                 <div class="project-image-container"> -->
-    <!--                   <a href="{{ project.url }}"> -->
-    <!--                     <img src="{{ project.thumbnail }}" class="u-max-full-width" /> -->
-    <!--                   </a> -->
-    <!--                 </div> -->
-
-    <!--                 <div class="project-caption"> -->
-    <!--                   <b>{{ project.title }}</b> <br/> -->
-    <!--                   {{ project.subtitle }} -->
-    <!--                 </div> -->
-
-    <!--             </div> -->
-    <!--           </div> -->
-
-    <!--         {% if index_modulo == 2 %} -->
-    <!--           </div> -->
-    <!--         {% endif %} -->
-    <!--       {% endfor %} -->
-    <!--     </div> -->
-
-    <!--     <div class="tab-pane" id="projects-all"> -->
-    <!--       {% for project in site.data.projects.projects %} -->
-    <!--         {% assign index_modulo = forloop.index0 | modulo:3 %} -->
-    <!--         {% if index_modulo == 0 %} -->
-    <!--           <div class="row"> -->
-    <!--         {% endif %} -->
-
-    <!--           <div class="four columns"> -->
-    <!--             <div class="project-container"> -->
-
-    <!--                 <div class="project-image-container"> -->
-    <!--                   <a href="{{ project.url }}"> -->
-    <!--                     <img src="{{ project.thumbnail }}" class="u-max-full-width" /> -->
-    <!--                   </a> -->
-    <!--                 </div> -->
-
-    <!--                 <div class="project-caption"> -->
-    <!--                   <b>{{ project.title }}</b> <br/> -->
-    <!--                   {{ project.subtitle }} -->
-    <!--                 </div> -->
-
-    <!--             </div> -->
-    <!--           </div> -->
-
-    <!--         {% if index_modulo == 2 %} -->
-    <!--           </div> -->
-    <!--         {% endif %} -->
-    <!--       {% endfor %} -->
-    <!--     </div> -->
-    <!--   </div> -->
-
+          <div class="tab-pane active" id="projects-all">
+              {% for project in site.data.projects.projects %}
+              {% include project_simple.html project=project%}
+              {% endfor %}
+          </div>
+      </div>
 </div>
 
 <!-- ========== RESUME ========== -->
@@ -243,6 +113,7 @@ title: Home
 <!--     {% endfor %} -->
 <!--   </ul> -->
 <!-- </div> -->
+
 
 
 <div class="docs-section" id="template">
