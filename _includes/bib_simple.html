@@ -1,8 +1,16 @@
 <!-- _includes/bib_simple.html -->
 <div class="paper">
     <p style="font-size: 1.5rem; margin-bottom: 6px" class="title"><b>{{ paper.title }}</b></p>
+    <!-- <p style="font-size: 1.5rem; margin-bottom: 6px" class="title"> -->
+    <!--     {% if paper.website %} -->
+    <!--     <!-1- NOTE: could be better in black: -1-> -->
+    <!--     <a href="{{ paper.website }}" target="_blank"><b>{{ paper.title }}</b></a> -->
+    <!--     {% else %} -->
+    <!--     <b>{{ paper.title }}</b> -->
+    <!--     {% endif %} -->
+    <!-- </p> -->
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px" >{{ paper.authors }}</p>
+    <p style="font-size: 1.3rem; margin-bottom: 6px" >{{ paper.authors }}. <i>{{ paper.journal }}, {{ paper.year}}</i> </p> 
 
     <!-- complicated author logic that requires an author_array -->
     <!-- TODO: Update to use this so that I can link to co-authors -->
@@ -83,9 +91,7 @@
 
     <div class="paper-buttons">
         {% if paper.website %}
-        <a class="button" href="{{ paper.website }}" target="_blank">{{ paper.journal }}, {{ paper.year}}</a>
-        {% else %}
-        <p><i>{{ paper.journal }}, {{ paper.year }}</i></p>
+        <a class="button" href="{{ paper.website }}" target="_blank">HTML</a>
         {% endif %}
 
         {% if paper.paper_pdf %}
