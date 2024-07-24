@@ -1,6 +1,6 @@
 papers:
   - title: "Single-cell multiregion dissection of Alzheimer’s disease"
-    authors: "Hansruedi Mathys‡, <u>Carles A. Boix‡</u>, Leyla Anne Akay‡, Ziting Xia, Jose Davila-Velderrain, Ayesha P. Ng, Xueqiao Jiang, Ghada Abdelhady, Kyriaki Galani, Julio Mantero, Neil Band, Benjamin T. James, Sudhagar Babu, Fabiola Galiana-Melendez, Kate Louderback, Dmitry Prokopenko, Rudolph E. Tanzi, David A. Bennett, Li-Huei Tsai, Manolis Kellis"
+    authors: "Hansruedi Mathys*, <u>Carles A. Boix*</u>, Leyla Anne Akay*, Ziting Xia, Jose Davila-Velderrain, Ayesha P. Ng, Xueqiao Jiang, Ghada Abdelhady, Kyriaki Galani, Julio Mantero, Neil Band, Benjamin T. James, Sudhagar Babu, Fabiola Galiana-Melendez, Kate Louderback, Dmitry Prokopenko, Rudolph E. Tanzi, David A. Bennett, Li-Huei Tsai, Manolis Kellis"
     website: "https://www.nature.com/articles/s41586-024-07606-7"
     journal: "Nature"
     year: 2024
@@ -10,7 +10,7 @@ papers:
 
 
   - title: "Neuronal DNA double-strand breaks lead to genome structural variations and 3D genome disruption in neurodegeneration"
-    authors: "Vishnu Dileep‡, <u>Carles A. Boix</u>‡, Hansruedi Mathys, Asaf Marco, Gwyneth Margaret Welch, Hiruy S. Meharena, Anjanet Loon, Ritika Jeloka, Zhuyu Peng, David A. Bennett, Manolis Kellis, Li-Huei Tsai"
+    authors: "Vishnu Dileep*, <u>Carles A. Boix</u>*, Hansruedi Mathys, Asaf Marco, Gwyneth Margaret Welch, Hiruy S. Meharena, Anjanet Loon, Ritika Jeloka, Zhuyu Peng, David A. Bennett, Manolis Kellis, Li-Huei Tsai"
     website: "https://doi.org/10.1016/j.cell.2023.08.038"
     journal: "Cell"
     year: 2023
@@ -18,7 +18,7 @@ papers:
     selected: y
 
   - title: "Epigenomic dissection of Alzheimer’s disease pinpoints causal variants and reveals epigenome erosion"
-    authors: "Xushen Xiong‡, Benjamin T. James‡, <u>Carles A. Boix</u>‡, Yongjin P. Park, Kyriaki Galani, Matheus B. Victor, Na Sun, Lei Hou, Li-Lun Ho, Julio Mantero, Aine Ni Scannail, Vishnu Dileep, Weixiu Dong, Hansruedi Mathys, David A. Bennett, Li-Huei Tsai, Manolis Kellis"
+    authors: "Xushen Xiong*, Benjamin T. James*, <u>Carles A. Boix</u>*, Yongjin P. Park, Kyriaki Galani, Matheus B. Victor, Na Sun, Lei Hou, Li-Lun Ho, Julio Mantero, Aine Ni Scannail, Vishnu Dileep, Weixiu Dong, Hansruedi Mathys, David A. Bennett, Li-Huei Tsai, Manolis Kellis"
     website: "https://doi.org/10.1016/j.cell.2023.08.040"
     journal: "Cell"
     year: 2023
@@ -26,7 +26,7 @@ papers:
     selected: y
 
   - title: "Single-cell atlas reveals correlates of high cognitive function, dementia, and resilience to Alzheimer’s disease pathology"
-    authors: "Hansruedi Mathys‡, Zhuyu Peng‡, <u>Carles A. Boix</u>‡, Matheus B. Victor, Noelle Leary, Sudhagar Babu, Ghada Abdelhady, Xueqiao Jiang, Ayesha P. Ng, Kimia Ghafari, Alexander K. Kunisky, Julio Mantero, Kyriaki Galani, Vanshika N. Lohia, Gabrielle E. Fortier, Yasmine Lotfi, Jason Ivey, Hannah P. Brown, Pratham R. Patel, Nehal Chakraborty, Jacob I. Beaudway, Elizabeth J. Imhoff, Cameron F. Keeler, Maren M. McChesney, Haishal H. Patel, Sahil P. Patel, Megan T. Thai, David A. Bennett, Manolis Kellis, Li-Huei Tsai"
+    authors: "Hansruedi Mathys*, Zhuyu Peng*, <u>Carles A. Boix</u>*, Matheus B. Victor, Noelle Leary, Sudhagar Babu, Ghada Abdelhady, Xueqiao Jiang, Ayesha P. Ng, Kimia Ghafari, Alexander K. Kunisky, Julio Mantero, Kyriaki Galani, Vanshika N. Lohia, Gabrielle E. Fortier, Yasmine Lotfi, Jason Ivey, Hannah P. Brown, Pratham R. Patel, Nehal Chakraborty, Jacob I. Beaudway, Elizabeth J. Imhoff, Cameron F. Keeler, Maren M. McChesney, Haishal H. Patel, Sahil P. Patel, Megan T. Thai, David A. Bennett, Manolis Kellis, Li-Huei Tsai"
     website: "https://doi.org/10.1016/j.cell.2023.08.039"
     journal: "Cell"
     year: 2023
@@ -34,7 +34,7 @@ papers:
     selected: y
 
   - title: "Human Microglial State Dynamics in Alzheimer’s Disease Progression"
-    authors: "Na Sun‡, Matheus B. Victor‡, Yongjin P. Park, Xushen Xiong, Aine Ni Scannail, Noelle Leary, Shaniah Prosper, Soujanya Viswanathan, Xochitl Luna, <u>Carles A. Boix</u>, Benjamin T. James, Yosuke Tanigawa, Kyriaki Galani, Hansruedi Mathys, Xueqiao Jiang, Ayesha P. Ng, David A. Bennett, Li-Huei Tsai, Manolis Kellis"
+    authors: "Na Sun*, Matheus B. Victor*, Yongjin P. Park, Xushen Xiong, Aine Ni Scannail, Noelle Leary, Shaniah Prosper, Soujanya Viswanathan, Xochitl Luna, <u>Carles A. Boix</u>, Benjamin T. James, Yosuke Tanigawa, Kyriaki Galani, Hansruedi Mathys, Xueqiao Jiang, Ayesha P. Ng, David A. Bennett, Li-Huei Tsai, Manolis Kellis"
     website: "https://doi.org/10.1016/j.cell.2023.08.037"
     journal: "Cell"
     year: 2023
@@ -42,14 +42,14 @@ papers:
     selected: n
 
   - title: "Multitissue H3K27ac profiling of GTEx samples links epigenomic variation to disease"
-    authors: "Lei Hou‡, Xushen Xiong‡, Yongjin Park, <u>Carles Boix</u>, Benjamin James, Na Sun, Liang He, Aman Patel, Zhizhuo Zhang, Benoit Molinie, Nicholas Van Wittenberghe, Scott Steelman, Chad Nusbaum, François Aguet, Kristin G. Ardlie & Manolis Kellis"
+    authors: "Lei Hou*, Xushen Xiong*, Yongjin Park, <u>Carles Boix</u>, Benjamin James, Na Sun, Liang He, Aman Patel, Zhizhuo Zhang, Benoit Molinie, Nicholas Van Wittenberghe, Scott Steelman, Chad Nusbaum, François Aguet, Kristin G. Ardlie & Manolis Kellis"
     website: "https://doi.org/10.1038/s41588-023-01509-5"
     journal: "Nature Genetics"
     year: 2023
     selected: n
 
   - title: "The ENCODE Imputation Challenge: a critical assessment of methods for cross-cell type imputation of epigenomic profiles"
-    authors: "Jacob Schreiber‡, <u>Carles A. Boix</u>‡, Jin wook Lee, Hongyang Li, Yuanfang Guan, Chun-Chieh Chang, Jen-Chien Chang, Alex Hawkins-Hooker, Bernhard Schölkopf, Gabriele Schweikert, Mateo Rojas Carulla, Arif Canakoglu, Francesco Guzzo, Luca Nanni, Marco Masseroli, Mark James Carman, Pietro Pinoli, Chenyang Hong, Kevin Y Yip, Jeffrey P Spence, Sanjit Singh Batra, Yun S Song, Shaun Mahony, Zheng Zhang, Wuwei Tan, Yang Shen, Yuanfei Sun, Minyi Shi, Jessika Adrian, Richard Sandstrom, Nina Farrell, Jessica Halow, Kristen Lee, Lixia Jiang, Xinqiong Yang, Charles Epstein, J Seth Strattan, Bradley Bernstein, Michael Snyder, Manolis Kellis, William Stafford, Anshul Kundaje"
+    authors: "Jacob Schreiber*, <u>Carles A. Boix</u>*, Jin wook Lee, Hongyang Li, Yuanfang Guan, Chun-Chieh Chang, Jen-Chien Chang, Alex Hawkins-Hooker, Bernhard Schölkopf, Gabriele Schweikert, Mateo Rojas Carulla, Arif Canakoglu, Francesco Guzzo, Luca Nanni, Marco Masseroli, Mark James Carman, Pietro Pinoli, Chenyang Hong, Kevin Y Yip, Jeffrey P Spence, Sanjit Singh Batra, Yun S Song, Shaun Mahony, Zheng Zhang, Wuwei Tan, Yang Shen, Yuanfei Sun, Minyi Shi, Jessika Adrian, Richard Sandstrom, Nina Farrell, Jessica Halow, Kristen Lee, Lixia Jiang, Xinqiong Yang, Charles Epstein, J Seth Strattan, Bradley Bernstein, Michael Snyder, Manolis Kellis, William Stafford, Anshul Kundaje"
     journal: "Genome Biology"
     year: 2023
     website: "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02915-y"
@@ -70,14 +70,14 @@ papers:
     selected: y
 
   - title: "Single-cell mosaicism analysis reveals cell-type-specific somatic mutational burden in Alzheimer’s Dementia"
-    authors: "Maria Kousi‡, <u>Carles A. Boix</u>‡, Yongjin P. Park, Hansruedi Mathys, Samuel Sledzieski, Zhuyu Peng, David A. Bennett, Li-Huei Tsai, Manolis Kellis"
+    authors: "Maria Kousi*, <u>Carles A. Boix</u>*, Yongjin P. Park, Hansruedi Mathys, Samuel Sledzieski, Zhuyu Peng, David A. Bennett, Li-Huei Tsai, Manolis Kellis"
     website: "https://www.biorxiv.org/content/10.1101/2022.04.21.489103v1.abstract"
     journal: "BioRxiv"
     year: 2022
     selected: y
 
   - title: "Single-cell dissection of live human hearts in ischemic heart disease and heart failure reveals cell-type-specific driver genes and pathways" 
-    authors: "Suvi Linna-Kuosmanen‡, Eloi Schmauch‡, Kyriakitsa Galani, <u>Carles A Boix</u>, Lei Hou, Tiit Örd, Anu Toropainen, Lindsey K Stolze, Elamaran Meibalan, Julio C Mantero, Ashley Renfro, Johannes Ojanen, Leandro Z Agudelo, Maija Hollmen, Juho Jalkanen, Jarmo Gunn, Pasi Tavi, Casey E Romanoski, Calum A MacRae, Minna U Kaikkonen, Guillermo Garcia-Cardena, Tuomas Kiviniemi, Manolis Kellis"
+    authors: "Suvi Linna-Kuosmanen*, Eloi Schmauch*, Kyriakitsa Galani, <u>Carles A Boix</u>, Lei Hou, Tiit Örd, Anu Toropainen, Lindsey K Stolze, Elamaran Meibalan, Julio C Mantero, Ashley Renfro, Johannes Ojanen, Leandro Z Agudelo, Maija Hollmen, Juho Jalkanen, Jarmo Gunn, Pasi Tavi, Casey E Romanoski, Calum A MacRae, Minna U Kaikkonen, Guillermo Garcia-Cardena, Tuomas Kiviniemi, Manolis Kellis"
     journal: "BioRxiv"
     year: 2021
     website: "https://www.biorxiv.org/content/10.1101/2021.06.23.449672v2.abstract"

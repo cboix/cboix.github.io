@@ -143,7 +143,11 @@
 
 
     <p>
-    Before this, I received my Ph.D. from MIT under the supervision of <a href="http://compbio.mit.edu" target="_blank" rel="external nofollow noopener">Manolis Kellis</a> in <a href="https://csbphd.mit.edu/" target="_blank" rel="external nofollow noopener">Computational and Systems Biology</a>, where I studied disease progression and the role of DNA damage in neurodegeneration (with <a href="https://tsailaboratory.mit.edu/" target="_blank" rel="external nofollow noopener">Li-Huei Tsai</a>) and developed epigenomic references and methods for understanding gene regulation and complex disease. I received my undergraduate degree from Princeton University, where I worked with <a href="https://storeylab.org/" target="_blank" rel="external nofollow noopener">John Storey</a> on statistics for high-dimensional genomic data.
+    Before this, I received my Ph.D. from MIT under the supervision of <a href="http://compbio.mit.edu" target="_blank" rel="external nofollow noopener">Manolis Kellis</a> in <a href="https://csbphd.mit.edu/" target="_blank" rel="external nofollow noopener">Computational and Systems Biology</a>, where I studied disease progression and the role of DNA damage in neurodegeneration in collaboration with <a href="https://tsailaboratory.mit.edu/" target="_blank" rel="external nofollow noopener">Li-Huei Tsai</a> and developed epigenomic references and methods for understanding gene regulation and complex disease.
+    </p>
+
+    <p>
+    I received my undergraduate degree from Princeton University, where I worked with <a href="https://storeylab.org/" target="_blank" rel="external nofollow noopener">John Storey</a> on statistics for high-dimensional genomic data.
     </p>
 </div>
 
@@ -153,7 +157,7 @@
   <h4>Publications</h4>
 
   <p>A full set of publications can be found on <a href="https://scholar.google.com/citations?user=lC_JXBgAAAAJ&amp;hl=en" target="_blank" rel="external nofollow noopener">Google Scholar</a>.<br>
-  <i><sup>‡</sup> indicates equal contribution.</i>
+  <i><sup>*</sup> indicates equal contribution.</i>
   </p>
 
   <ul class="tab-nav">
@@ -175,22 +179,86 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Hansruedi Mathys‡, <u>Carles A. Boix‡</u>, Leyla Anne Akay‡, Ziting Xia, Jose Davila-Velderrain, Ayesha P. Ng, Xueqiao Jiang, Ghada Abdelhady, Kyriaki Galani, Julio Mantero, Neil Band, Benjamin T. James, Sudhagar Babu, Fabiola Galiana-Melendez, Kate Louderback, Dmitry Prokopenko, Rudolph E. Tanzi, David A. Bennett, Li-Huei Tsai, Manolis Kellis. <i>Nature, 2024</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Hansruedi Mathys*, <u>Carles A. Boix*</u>, Leyla Anne Akay*, Ziting Xia, Jose Davila-Velderrain, Ayesha P. Ng, Xueqiao Jiang, Ghada Abdelhady, Kyriaki Galani, Julio Mantero, Neil Band, Benjamin T. James, Sudhagar Babu, Fabiola Galiana-Melendez, Kate Louderback, Dmitry Prokopenko, Rudolph E. Tanzi, David A. Bennett, Li-Huei Tsai, Manolis Kellis. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    
+        
+        
+        
+        
+        
+        <!-- Populate the first + last authors: -->
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+        Hansruedi Mathys*, <u>Carles A. Boix*</u>, Leyla Anne Akay*, Ziting Xia, <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <span class="more-authors" style="border-bottom: 1px dashed;" title="[...]" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '[...]' ? ' Jose Davila-Velderrain,  Ayesha P. Ng,  Xueqiao Jiang,  Ghada Abdelhady,  Kyriaki Galani,  Julio Mantero,  Neil Band,  Benjamin T. James,  Sudhagar Babu,  Fabiola Galiana-Melendez,  Kate Louderback,  Dmitry Prokopenko,  Rudolph E. Tanzi' : '[...]';
+              var ul_style = element.text() == '[...]' ? '0px dashed' : '1px dashed';
+              var cursorPosition = 0;
+              element.attr('style', 'border-bottom: '+ul_style);
+              // element.attr('title', more_authors_text);
+              var textAdder = setInterval(function(){
+                  element.html(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                  }
+              }, '-1');">[...]</span>,
+         David A. Bennett, Li-Huei Tsai, Manolis Kellis.
+    <i>Nature, 2024</i> </p> 
 
 
     <div class="paper-buttons">
@@ -228,22 +296,70 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Vishnu Dileep‡, <u>Carles A. Boix</u>‡, Hansruedi Mathys, Asaf Marco, Gwyneth Margaret Welch, Hiruy S. Meharena, Anjanet Loon, Ritika Jeloka, Zhuyu Peng, David A. Bennett, Manolis Kellis, Li-Huei Tsai. <i>Cell, 2023</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Vishnu Dileep*, <u>Carles A. Boix</u>*, Hansruedi Mathys, Asaf Marco, Gwyneth Margaret Welch, Hiruy S. Meharena, Anjanet Loon, Ritika Jeloka, Zhuyu Peng, David A. Bennett, Manolis Kellis, Li-Huei Tsai. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    
+        
+        
+        
+        
+        
+        <!-- Populate the first + last authors: -->
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+        Vishnu Dileep*, <u>Carles A. Boix</u>*, Hansruedi Mathys, Asaf Marco, <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <span class="more-authors" style="border-bottom: 1px dashed;" title="[...]" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '[...]' ? ' Gwyneth Margaret Welch,  Hiruy S. Meharena,  Anjanet Loon,  Ritika Jeloka,  Zhuyu Peng' : '[...]';
+              var ul_style = element.text() == '[...]' ? '0px dashed' : '1px dashed';
+              var cursorPosition = 0;
+              element.attr('style', 'border-bottom: '+ul_style);
+              // element.attr('title', more_authors_text);
+              var textAdder = setInterval(function(){
+                  element.html(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                  }
+              }, '-1');">[...]</span>,
+         David A. Bennett, Manolis Kellis, Li-Huei Tsai.
+    <i>Cell, 2023</i> </p> 
 
 
     <div class="paper-buttons">
@@ -279,22 +395,80 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Xushen Xiong‡, Benjamin T. James‡, <u>Carles A. Boix</u>‡, Yongjin P. Park, Kyriaki Galani, Matheus B. Victor, Na Sun, Lei Hou, Li-Lun Ho, Julio Mantero, Aine Ni Scannail, Vishnu Dileep, Weixiu Dong, Hansruedi Mathys, David A. Bennett, Li-Huei Tsai, Manolis Kellis. <i>Cell, 2023</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Xushen Xiong*, Benjamin T. James*, <u>Carles A. Boix</u>*, Yongjin P. Park, Kyriaki Galani, Matheus B. Victor, Na Sun, Lei Hou, Li-Lun Ho, Julio Mantero, Aine Ni Scannail, Vishnu Dileep, Weixiu Dong, Hansruedi Mathys, David A. Bennett, Li-Huei Tsai, Manolis Kellis. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    
+        
+        
+        
+        
+        
+        <!-- Populate the first + last authors: -->
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+        Xushen Xiong*, Benjamin T. James*, <u>Carles A. Boix</u>*, Yongjin P. Park, <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <span class="more-authors" style="border-bottom: 1px dashed;" title="[...]" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '[...]' ? ' Kyriaki Galani,  Matheus B. Victor,  Na Sun,  Lei Hou,  Li-Lun Ho,  Julio Mantero,  Aine Ni Scannail,  Vishnu Dileep,  Weixiu Dong,  Hansruedi Mathys' : '[...]';
+              var ul_style = element.text() == '[...]' ? '0px dashed' : '1px dashed';
+              var cursorPosition = 0;
+              element.attr('style', 'border-bottom: '+ul_style);
+              // element.attr('title', more_authors_text);
+              var textAdder = setInterval(function(){
+                  element.html(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                  }
+              }, '-1');">[...]</span>,
+         David A. Bennett, Li-Huei Tsai, Manolis Kellis.
+    <i>Cell, 2023</i> </p> 
 
 
     <div class="paper-buttons">
@@ -330,22 +504,106 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Hansruedi Mathys‡, Zhuyu Peng‡, <u>Carles A. Boix</u>‡, Matheus B. Victor, Noelle Leary, Sudhagar Babu, Ghada Abdelhady, Xueqiao Jiang, Ayesha P. Ng, Kimia Ghafari, Alexander K. Kunisky, Julio Mantero, Kyriaki Galani, Vanshika N. Lohia, Gabrielle E. Fortier, Yasmine Lotfi, Jason Ivey, Hannah P. Brown, Pratham R. Patel, Nehal Chakraborty, Jacob I. Beaudway, Elizabeth J. Imhoff, Cameron F. Keeler, Maren M. McChesney, Haishal H. Patel, Sahil P. Patel, Megan T. Thai, David A. Bennett, Manolis Kellis, Li-Huei Tsai. <i>Cell, 2023</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Hansruedi Mathys*, Zhuyu Peng*, <u>Carles A. Boix</u>*, Matheus B. Victor, Noelle Leary, Sudhagar Babu, Ghada Abdelhady, Xueqiao Jiang, Ayesha P. Ng, Kimia Ghafari, Alexander K. Kunisky, Julio Mantero, Kyriaki Galani, Vanshika N. Lohia, Gabrielle E. Fortier, Yasmine Lotfi, Jason Ivey, Hannah P. Brown, Pratham R. Patel, Nehal Chakraborty, Jacob I. Beaudway, Elizabeth J. Imhoff, Cameron F. Keeler, Maren M. McChesney, Haishal H. Patel, Sahil P. Patel, Megan T. Thai, David A. Bennett, Manolis Kellis, Li-Huei Tsai. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    
+        
+        
+        
+        
+        
+        <!-- Populate the first + last authors: -->
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+        Hansruedi Mathys*, Zhuyu Peng*, <u>Carles A. Boix</u>*, Matheus B. Victor, <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <span class="more-authors" style="border-bottom: 1px dashed;" title="[...]" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '[...]' ? ' Noelle Leary,  Sudhagar Babu,  Ghada Abdelhady,  Xueqiao Jiang,  Ayesha P. Ng,  Kimia Ghafari,  Alexander K. Kunisky,  Julio Mantero,  Kyriaki Galani,  Vanshika N. Lohia,  Gabrielle E. Fortier,  Yasmine Lotfi,  Jason Ivey,  Hannah P. Brown,  Pratham R. Patel,  Nehal Chakraborty,  Jacob I. Beaudway,  Elizabeth J. Imhoff,  Cameron F. Keeler,  Maren M. McChesney,  Haishal H. Patel,  Sahil P. Patel,  Megan T. Thai' : '[...]';
+              var ul_style = element.text() == '[...]' ? '0px dashed' : '1px dashed';
+              var cursorPosition = 0;
+              element.attr('style', 'border-bottom: '+ul_style);
+              // element.attr('title', more_authors_text);
+              var textAdder = setInterval(function(){
+                  element.html(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                  }
+              }, '-1');">[...]</span>,
+         David A. Bennett, Manolis Kellis, Li-Huei Tsai.
+    <i>Cell, 2023</i> </p> 
 
 
     <div class="paper-buttons">
@@ -381,22 +639,130 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Jacob Schreiber‡, <u>Carles A. Boix</u>‡, Jin wook Lee, Hongyang Li, Yuanfang Guan, Chun-Chieh Chang, Jen-Chien Chang, Alex Hawkins-Hooker, Bernhard Schölkopf, Gabriele Schweikert, Mateo Rojas Carulla, Arif Canakoglu, Francesco Guzzo, Luca Nanni, Marco Masseroli, Mark James Carman, Pietro Pinoli, Chenyang Hong, Kevin Y Yip, Jeffrey P Spence, Sanjit Singh Batra, Yun S Song, Shaun Mahony, Zheng Zhang, Wuwei Tan, Yang Shen, Yuanfei Sun, Minyi Shi, Jessika Adrian, Richard Sandstrom, Nina Farrell, Jessica Halow, Kristen Lee, Lixia Jiang, Xinqiong Yang, Charles Epstein, J Seth Strattan, Bradley Bernstein, Michael Snyder, Manolis Kellis, William Stafford, Anshul Kundaje. <i>Genome Biology, 2023</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Jacob Schreiber*, <u>Carles A. Boix</u>*, Jin wook Lee, Hongyang Li, Yuanfang Guan, Chun-Chieh Chang, Jen-Chien Chang, Alex Hawkins-Hooker, Bernhard Schölkopf, Gabriele Schweikert, Mateo Rojas Carulla, Arif Canakoglu, Francesco Guzzo, Luca Nanni, Marco Masseroli, Mark James Carman, Pietro Pinoli, Chenyang Hong, Kevin Y Yip, Jeffrey P Spence, Sanjit Singh Batra, Yun S Song, Shaun Mahony, Zheng Zhang, Wuwei Tan, Yang Shen, Yuanfei Sun, Minyi Shi, Jessika Adrian, Richard Sandstrom, Nina Farrell, Jessica Halow, Kristen Lee, Lixia Jiang, Xinqiong Yang, Charles Epstein, J Seth Strattan, Bradley Bernstein, Michael Snyder, Manolis Kellis, William Stafford, Anshul Kundaje. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    
+        
+        
+        
+        
+        
+        <!-- Populate the first + last authors: -->
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+        Jacob Schreiber*, <u>Carles A. Boix</u>*, Jin wook Lee, Hongyang Li, <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <span class="more-authors" style="border-bottom: 1px dashed;" title="[...]" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '[...]' ? ' Yuanfang Guan,  Chun-Chieh Chang,  Jen-Chien Chang,  Alex Hawkins-Hooker,  Bernhard Schölkopf,  Gabriele Schweikert,  Mateo Rojas Carulla,  Arif Canakoglu,  Francesco Guzzo,  Luca Nanni,  Marco Masseroli,  Mark James Carman,  Pietro Pinoli,  Chenyang Hong,  Kevin Y Yip,  Jeffrey P Spence,  Sanjit Singh Batra,  Yun S Song,  Shaun Mahony,  Zheng Zhang,  Wuwei Tan,  Yang Shen,  Yuanfei Sun,  Minyi Shi,  Jessika Adrian,  Richard Sandstrom,  Nina Farrell,  Jessica Halow,  Kristen Lee,  Lixia Jiang,  Xinqiong Yang,  Charles Epstein,  J Seth Strattan,  Bradley Bernstein,  Michael Snyder' : '[...]';
+              var ul_style = element.text() == '[...]' ? '0px dashed' : '1px dashed';
+              var cursorPosition = 0;
+              element.attr('style', 'border-bottom: '+ul_style);
+              // element.attr('title', more_authors_text);
+              var textAdder = setInterval(function(){
+                  element.html(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                  }
+              }, '-1');">[...]</span>,
+         Manolis Kellis, William Stafford, Anshul Kundaje.
+    <i>Genome Biology, 2023</i> </p> 
 
 
     <div class="paper-buttons">
@@ -430,22 +796,74 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Gwyneth M. Welch, <u>Carles A. Boix</u>, Eloi Schmauch, Jose Davila-Velderrain, Matheus B. Victor, Vishnu Dileep, P. Lorenzo Bozzelli, Qiao Su, Jemmie D. Cheng, Audrey Lee, Noelle S. Leary, Andreas R. Pfenning, Manolis Kellis, Li-Huei Tsai. <i>Science Advances, 2023</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Gwyneth M. Welch, <u>Carles A. Boix</u>, Eloi Schmauch, Jose Davila-Velderrain, Matheus B. Victor, Vishnu Dileep, P. Lorenzo Bozzelli, Qiao Su, Jemmie D. Cheng, Audrey Lee, Noelle S. Leary, Andreas R. Pfenning, Manolis Kellis, Li-Huei Tsai. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    
+        
+        
+        
+        
+        
+        <!-- Populate the first + last authors: -->
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+        Gwyneth M. Welch, <u>Carles A. Boix</u>, Eloi Schmauch, Jose Davila-Velderrain, <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <span class="more-authors" style="border-bottom: 1px dashed;" title="[...]" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '[...]' ? ' Matheus B. Victor,  Vishnu Dileep,  P. Lorenzo Bozzelli,  Qiao Su,  Jemmie D. Cheng,  Audrey Lee,  Noelle S. Leary' : '[...]';
+              var ul_style = element.text() == '[...]' ? '0px dashed' : '1px dashed';
+              var cursorPosition = 0;
+              element.attr('style', 'border-bottom: '+ul_style);
+              // element.attr('title', more_authors_text);
+              var textAdder = setInterval(function(){
+                  element.html(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                  }
+              }, '-1');">[...]</span>,
+         Andreas R. Pfenning, Manolis Kellis, Li-Huei Tsai.
+    <i>Science Advances, 2023</i> </p> 
 
 
     <div class="paper-buttons">
@@ -479,22 +897,22 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Maria Kousi‡, <u>Carles A. Boix</u>‡, Yongjin P. Park, Hansruedi Mathys, Samuel Sledzieski, Zhuyu Peng, David A. Bennett, Li-Huei Tsai, Manolis Kellis. <i>BioRxiv, 2022</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Maria Kousi*, <u>Carles A. Boix</u>*, Yongjin P. Park, Hansruedi Mathys, Samuel Sledzieski, Zhuyu Peng, David A. Bennett, Li-Huei Tsai, Manolis Kellis. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    Maria Kousi*, <u>Carles A. Boix</u>*, Yongjin P. Park, Hansruedi Mathys, Samuel Sledzieski, Zhuyu Peng, David A. Bennett, Li-Huei Tsai, Manolis Kellis.
+    <i>BioRxiv, 2022</i> </p> 
 
 
     <div class="paper-buttons">
@@ -528,22 +946,22 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px"><u>Carles A. Boix</u>, Benjamin T. James, Yongjin P. Park, Wouter Meuleman, Manolis Kellis. <i>Nature, 2021</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- <u>Carles A. Boix</u>, Benjamin T. James, Yongjin P. Park, Wouter Meuleman, Manolis Kellis. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    <u>Carles A. Boix</u>, Benjamin T. James, Yongjin P. Park, Wouter Meuleman, Manolis Kellis.
+    <i>Nature, 2021</i> </p> 
 
 
     <div class="paper-buttons">
@@ -581,22 +999,22 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Gabriel E. Leventhal, <u>Carles A. Boix</u>, Urs Kuechler, Tim N. Enke, Elzbieta Sliwerska, Christof Holliger, Otto X. Cordero. <i>Nature Microbiology, 2018</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Gabriel E. Leventhal, <u>Carles A. Boix</u>, Urs Kuechler, Tim N. Enke, Elzbieta Sliwerska, Christof Holliger, Otto X. Cordero. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    Gabriel E. Leventhal, <u>Carles A. Boix</u>, Urs Kuechler, Tim N. Enke, Elzbieta Sliwerska, Christof Holliger, Otto X. Cordero.
+    <i>Nature Microbiology, 2018</i> </p> 
 
 
     <div class="paper-buttons">
@@ -634,22 +1052,86 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Hansruedi Mathys‡, <u>Carles A. Boix‡</u>, Leyla Anne Akay‡, Ziting Xia, Jose Davila-Velderrain, Ayesha P. Ng, Xueqiao Jiang, Ghada Abdelhady, Kyriaki Galani, Julio Mantero, Neil Band, Benjamin T. James, Sudhagar Babu, Fabiola Galiana-Melendez, Kate Louderback, Dmitry Prokopenko, Rudolph E. Tanzi, David A. Bennett, Li-Huei Tsai, Manolis Kellis. <i>Nature, 2024</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Hansruedi Mathys*, <u>Carles A. Boix*</u>, Leyla Anne Akay*, Ziting Xia, Jose Davila-Velderrain, Ayesha P. Ng, Xueqiao Jiang, Ghada Abdelhady, Kyriaki Galani, Julio Mantero, Neil Band, Benjamin T. James, Sudhagar Babu, Fabiola Galiana-Melendez, Kate Louderback, Dmitry Prokopenko, Rudolph E. Tanzi, David A. Bennett, Li-Huei Tsai, Manolis Kellis. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    
+        
+        
+        
+        
+        
+        <!-- Populate the first + last authors: -->
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+        Hansruedi Mathys*, <u>Carles A. Boix*</u>, Leyla Anne Akay*, Ziting Xia, <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <span class="more-authors" style="border-bottom: 1px dashed;" title="[...]" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '[...]' ? ' Jose Davila-Velderrain,  Ayesha P. Ng,  Xueqiao Jiang,  Ghada Abdelhady,  Kyriaki Galani,  Julio Mantero,  Neil Band,  Benjamin T. James,  Sudhagar Babu,  Fabiola Galiana-Melendez,  Kate Louderback,  Dmitry Prokopenko,  Rudolph E. Tanzi' : '[...]';
+              var ul_style = element.text() == '[...]' ? '0px dashed' : '1px dashed';
+              var cursorPosition = 0;
+              element.attr('style', 'border-bottom: '+ul_style);
+              // element.attr('title', more_authors_text);
+              var textAdder = setInterval(function(){
+                  element.html(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                  }
+              }, '-1');">[...]</span>,
+         David A. Bennett, Li-Huei Tsai, Manolis Kellis.
+    <i>Nature, 2024</i> </p> 
 
 
     <div class="paper-buttons">
@@ -687,22 +1169,70 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Vishnu Dileep‡, <u>Carles A. Boix</u>‡, Hansruedi Mathys, Asaf Marco, Gwyneth Margaret Welch, Hiruy S. Meharena, Anjanet Loon, Ritika Jeloka, Zhuyu Peng, David A. Bennett, Manolis Kellis, Li-Huei Tsai. <i>Cell, 2023</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Vishnu Dileep*, <u>Carles A. Boix</u>*, Hansruedi Mathys, Asaf Marco, Gwyneth Margaret Welch, Hiruy S. Meharena, Anjanet Loon, Ritika Jeloka, Zhuyu Peng, David A. Bennett, Manolis Kellis, Li-Huei Tsai. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    
+        
+        
+        
+        
+        
+        <!-- Populate the first + last authors: -->
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+        Vishnu Dileep*, <u>Carles A. Boix</u>*, Hansruedi Mathys, Asaf Marco, <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <span class="more-authors" style="border-bottom: 1px dashed;" title="[...]" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '[...]' ? ' Gwyneth Margaret Welch,  Hiruy S. Meharena,  Anjanet Loon,  Ritika Jeloka,  Zhuyu Peng' : '[...]';
+              var ul_style = element.text() == '[...]' ? '0px dashed' : '1px dashed';
+              var cursorPosition = 0;
+              element.attr('style', 'border-bottom: '+ul_style);
+              // element.attr('title', more_authors_text);
+              var textAdder = setInterval(function(){
+                  element.html(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                  }
+              }, '-1');">[...]</span>,
+         David A. Bennett, Manolis Kellis, Li-Huei Tsai.
+    <i>Cell, 2023</i> </p> 
 
 
     <div class="paper-buttons">
@@ -738,22 +1268,80 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Xushen Xiong‡, Benjamin T. James‡, <u>Carles A. Boix</u>‡, Yongjin P. Park, Kyriaki Galani, Matheus B. Victor, Na Sun, Lei Hou, Li-Lun Ho, Julio Mantero, Aine Ni Scannail, Vishnu Dileep, Weixiu Dong, Hansruedi Mathys, David A. Bennett, Li-Huei Tsai, Manolis Kellis. <i>Cell, 2023</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Xushen Xiong*, Benjamin T. James*, <u>Carles A. Boix</u>*, Yongjin P. Park, Kyriaki Galani, Matheus B. Victor, Na Sun, Lei Hou, Li-Lun Ho, Julio Mantero, Aine Ni Scannail, Vishnu Dileep, Weixiu Dong, Hansruedi Mathys, David A. Bennett, Li-Huei Tsai, Manolis Kellis. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    
+        
+        
+        
+        
+        
+        <!-- Populate the first + last authors: -->
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+        Xushen Xiong*, Benjamin T. James*, <u>Carles A. Boix</u>*, Yongjin P. Park, <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <span class="more-authors" style="border-bottom: 1px dashed;" title="[...]" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '[...]' ? ' Kyriaki Galani,  Matheus B. Victor,  Na Sun,  Lei Hou,  Li-Lun Ho,  Julio Mantero,  Aine Ni Scannail,  Vishnu Dileep,  Weixiu Dong,  Hansruedi Mathys' : '[...]';
+              var ul_style = element.text() == '[...]' ? '0px dashed' : '1px dashed';
+              var cursorPosition = 0;
+              element.attr('style', 'border-bottom: '+ul_style);
+              // element.attr('title', more_authors_text);
+              var textAdder = setInterval(function(){
+                  element.html(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                  }
+              }, '-1');">[...]</span>,
+         David A. Bennett, Li-Huei Tsai, Manolis Kellis.
+    <i>Cell, 2023</i> </p> 
 
 
     <div class="paper-buttons">
@@ -789,22 +1377,106 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Hansruedi Mathys‡, Zhuyu Peng‡, <u>Carles A. Boix</u>‡, Matheus B. Victor, Noelle Leary, Sudhagar Babu, Ghada Abdelhady, Xueqiao Jiang, Ayesha P. Ng, Kimia Ghafari, Alexander K. Kunisky, Julio Mantero, Kyriaki Galani, Vanshika N. Lohia, Gabrielle E. Fortier, Yasmine Lotfi, Jason Ivey, Hannah P. Brown, Pratham R. Patel, Nehal Chakraborty, Jacob I. Beaudway, Elizabeth J. Imhoff, Cameron F. Keeler, Maren M. McChesney, Haishal H. Patel, Sahil P. Patel, Megan T. Thai, David A. Bennett, Manolis Kellis, Li-Huei Tsai. <i>Cell, 2023</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Hansruedi Mathys*, Zhuyu Peng*, <u>Carles A. Boix</u>*, Matheus B. Victor, Noelle Leary, Sudhagar Babu, Ghada Abdelhady, Xueqiao Jiang, Ayesha P. Ng, Kimia Ghafari, Alexander K. Kunisky, Julio Mantero, Kyriaki Galani, Vanshika N. Lohia, Gabrielle E. Fortier, Yasmine Lotfi, Jason Ivey, Hannah P. Brown, Pratham R. Patel, Nehal Chakraborty, Jacob I. Beaudway, Elizabeth J. Imhoff, Cameron F. Keeler, Maren M. McChesney, Haishal H. Patel, Sahil P. Patel, Megan T. Thai, David A. Bennett, Manolis Kellis, Li-Huei Tsai. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    
+        
+        
+        
+        
+        
+        <!-- Populate the first + last authors: -->
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+        Hansruedi Mathys*, Zhuyu Peng*, <u>Carles A. Boix</u>*, Matheus B. Victor, <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <span class="more-authors" style="border-bottom: 1px dashed;" title="[...]" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '[...]' ? ' Noelle Leary,  Sudhagar Babu,  Ghada Abdelhady,  Xueqiao Jiang,  Ayesha P. Ng,  Kimia Ghafari,  Alexander K. Kunisky,  Julio Mantero,  Kyriaki Galani,  Vanshika N. Lohia,  Gabrielle E. Fortier,  Yasmine Lotfi,  Jason Ivey,  Hannah P. Brown,  Pratham R. Patel,  Nehal Chakraborty,  Jacob I. Beaudway,  Elizabeth J. Imhoff,  Cameron F. Keeler,  Maren M. McChesney,  Haishal H. Patel,  Sahil P. Patel,  Megan T. Thai' : '[...]';
+              var ul_style = element.text() == '[...]' ? '0px dashed' : '1px dashed';
+              var cursorPosition = 0;
+              element.attr('style', 'border-bottom: '+ul_style);
+              // element.attr('title', more_authors_text);
+              var textAdder = setInterval(function(){
+                  element.html(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                  }
+              }, '-1');">[...]</span>,
+         David A. Bennett, Manolis Kellis, Li-Huei Tsai.
+    <i>Cell, 2023</i> </p> 
 
 
     <div class="paper-buttons">
@@ -840,22 +1512,84 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Na Sun‡, Matheus B. Victor‡, Yongjin P. Park, Xushen Xiong, Aine Ni Scannail, Noelle Leary, Shaniah Prosper, Soujanya Viswanathan, Xochitl Luna, <u>Carles A. Boix</u>, Benjamin T. James, Yosuke Tanigawa, Kyriaki Galani, Hansruedi Mathys, Xueqiao Jiang, Ayesha P. Ng, David A. Bennett, Li-Huei Tsai, Manolis Kellis. <i>Cell, 2023</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Na Sun*, Matheus B. Victor*, Yongjin P. Park, Xushen Xiong, Aine Ni Scannail, Noelle Leary, Shaniah Prosper, Soujanya Viswanathan, Xochitl Luna, <u>Carles A. Boix</u>, Benjamin T. James, Yosuke Tanigawa, Kyriaki Galani, Hansruedi Mathys, Xueqiao Jiang, Ayesha P. Ng, David A. Bennett, Li-Huei Tsai, Manolis Kellis. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    
+        
+        
+        
+        
+        
+        <!-- Populate the first + last authors: -->
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+        Na Sun*, Matheus B. Victor*, Yongjin P. Park, Xushen Xiong, <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <span class="more-authors" style="border-bottom: 1px dashed;" title="[...]" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '[...]' ? ' Aine Ni Scannail,  Noelle Leary,  Shaniah Prosper,  Soujanya Viswanathan,  Xochitl Luna,  &lt;u&gt;Carles A. Boix&lt;/u&gt;,  Benjamin T. James,  Yosuke Tanigawa,  Kyriaki Galani,  Hansruedi Mathys,  Xueqiao Jiang,  Ayesha P. Ng' : '[...]';
+              var ul_style = element.text() == '[...]' ? '0px dashed' : '1px dashed';
+              var cursorPosition = 0;
+              element.attr('style', 'border-bottom: '+ul_style);
+              // element.attr('title', more_authors_text);
+              var textAdder = setInterval(function(){
+                  element.html(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                  }
+              }, '-1');">[...]</span>,
+         David A. Bennett, Li-Huei Tsai, Manolis Kellis.
+    <i>Cell, 2023</i> </p> 
 
 
     <div class="paper-buttons">
@@ -891,22 +1625,76 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Lei Hou‡, Xushen Xiong‡, Yongjin Park, <u>Carles Boix</u>, Benjamin James, Na Sun, Liang He, Aman Patel, Zhizhuo Zhang, Benoit Molinie, Nicholas Van Wittenberghe, Scott Steelman, Chad Nusbaum, François Aguet, Kristin G. Ardlie &amp; Manolis Kellis. <i>Nature Genetics, 2023</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Lei Hou*, Xushen Xiong*, Yongjin Park, <u>Carles Boix</u>, Benjamin James, Na Sun, Liang He, Aman Patel, Zhizhuo Zhang, Benoit Molinie, Nicholas Van Wittenberghe, Scott Steelman, Chad Nusbaum, François Aguet, Kristin G. Ardlie & Manolis Kellis. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    
+        
+        
+        
+        
+        
+        <!-- Populate the first + last authors: -->
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+        Lei Hou*, Xushen Xiong*, Yongjin Park, <u>Carles Boix</u>, <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <span class="more-authors" style="border-bottom: 1px dashed;" title="[...]" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '[...]' ? ' Benjamin James,  Na Sun,  Liang He,  Aman Patel,  Zhizhuo Zhang,  Benoit Molinie,  Nicholas Van Wittenberghe,  Scott Steelman' : '[...]';
+              var ul_style = element.text() == '[...]' ? '0px dashed' : '1px dashed';
+              var cursorPosition = 0;
+              element.attr('style', 'border-bottom: '+ul_style);
+              // element.attr('title', more_authors_text);
+              var textAdder = setInterval(function(){
+                  element.html(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                  }
+              }, '-1');">[...]</span>,
+         Chad Nusbaum, François Aguet, Kristin G. Ardlie &amp; Manolis Kellis.
+    <i>Nature Genetics, 2023</i> </p> 
 
 
     <div class="paper-buttons">
@@ -940,22 +1728,130 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Jacob Schreiber‡, <u>Carles A. Boix</u>‡, Jin wook Lee, Hongyang Li, Yuanfang Guan, Chun-Chieh Chang, Jen-Chien Chang, Alex Hawkins-Hooker, Bernhard Schölkopf, Gabriele Schweikert, Mateo Rojas Carulla, Arif Canakoglu, Francesco Guzzo, Luca Nanni, Marco Masseroli, Mark James Carman, Pietro Pinoli, Chenyang Hong, Kevin Y Yip, Jeffrey P Spence, Sanjit Singh Batra, Yun S Song, Shaun Mahony, Zheng Zhang, Wuwei Tan, Yang Shen, Yuanfei Sun, Minyi Shi, Jessika Adrian, Richard Sandstrom, Nina Farrell, Jessica Halow, Kristen Lee, Lixia Jiang, Xinqiong Yang, Charles Epstein, J Seth Strattan, Bradley Bernstein, Michael Snyder, Manolis Kellis, William Stafford, Anshul Kundaje. <i>Genome Biology, 2023</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Jacob Schreiber*, <u>Carles A. Boix</u>*, Jin wook Lee, Hongyang Li, Yuanfang Guan, Chun-Chieh Chang, Jen-Chien Chang, Alex Hawkins-Hooker, Bernhard Schölkopf, Gabriele Schweikert, Mateo Rojas Carulla, Arif Canakoglu, Francesco Guzzo, Luca Nanni, Marco Masseroli, Mark James Carman, Pietro Pinoli, Chenyang Hong, Kevin Y Yip, Jeffrey P Spence, Sanjit Singh Batra, Yun S Song, Shaun Mahony, Zheng Zhang, Wuwei Tan, Yang Shen, Yuanfei Sun, Minyi Shi, Jessika Adrian, Richard Sandstrom, Nina Farrell, Jessica Halow, Kristen Lee, Lixia Jiang, Xinqiong Yang, Charles Epstein, J Seth Strattan, Bradley Bernstein, Michael Snyder, Manolis Kellis, William Stafford, Anshul Kundaje. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    
+        
+        
+        
+        
+        
+        <!-- Populate the first + last authors: -->
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+        Jacob Schreiber*, <u>Carles A. Boix</u>*, Jin wook Lee, Hongyang Li, <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <span class="more-authors" style="border-bottom: 1px dashed;" title="[...]" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '[...]' ? ' Yuanfang Guan,  Chun-Chieh Chang,  Jen-Chien Chang,  Alex Hawkins-Hooker,  Bernhard Schölkopf,  Gabriele Schweikert,  Mateo Rojas Carulla,  Arif Canakoglu,  Francesco Guzzo,  Luca Nanni,  Marco Masseroli,  Mark James Carman,  Pietro Pinoli,  Chenyang Hong,  Kevin Y Yip,  Jeffrey P Spence,  Sanjit Singh Batra,  Yun S Song,  Shaun Mahony,  Zheng Zhang,  Wuwei Tan,  Yang Shen,  Yuanfei Sun,  Minyi Shi,  Jessika Adrian,  Richard Sandstrom,  Nina Farrell,  Jessica Halow,  Kristen Lee,  Lixia Jiang,  Xinqiong Yang,  Charles Epstein,  J Seth Strattan,  Bradley Bernstein,  Michael Snyder' : '[...]';
+              var ul_style = element.text() == '[...]' ? '0px dashed' : '1px dashed';
+              var cursorPosition = 0;
+              element.attr('style', 'border-bottom: '+ul_style);
+              // element.attr('title', more_authors_text);
+              var textAdder = setInterval(function(){
+                  element.html(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                  }
+              }, '-1');">[...]</span>,
+         Manolis Kellis, William Stafford, Anshul Kundaje.
+    <i>Genome Biology, 2023</i> </p> 
 
 
     <div class="paper-buttons">
@@ -989,22 +1885,22 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px"><i>One of many in GENCODE</i>. <i>Nucleic Acids Research, 2023</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- <i>One of many in GENCODE</i>. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    <i>One of many in GENCODE</i>.
+    <i>Nucleic Acids Research, 2023</i> </p> 
 
 
     <div class="paper-buttons">
@@ -1038,22 +1934,74 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Gwyneth M. Welch, <u>Carles A. Boix</u>, Eloi Schmauch, Jose Davila-Velderrain, Matheus B. Victor, Vishnu Dileep, P. Lorenzo Bozzelli, Qiao Su, Jemmie D. Cheng, Audrey Lee, Noelle S. Leary, Andreas R. Pfenning, Manolis Kellis, Li-Huei Tsai. <i>Science Advances, 2023</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Gwyneth M. Welch, <u>Carles A. Boix</u>, Eloi Schmauch, Jose Davila-Velderrain, Matheus B. Victor, Vishnu Dileep, P. Lorenzo Bozzelli, Qiao Su, Jemmie D. Cheng, Audrey Lee, Noelle S. Leary, Andreas R. Pfenning, Manolis Kellis, Li-Huei Tsai. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    
+        
+        
+        
+        
+        
+        <!-- Populate the first + last authors: -->
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+        Gwyneth M. Welch, <u>Carles A. Boix</u>, Eloi Schmauch, Jose Davila-Velderrain, <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <span class="more-authors" style="border-bottom: 1px dashed;" title="[...]" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '[...]' ? ' Matheus B. Victor,  Vishnu Dileep,  P. Lorenzo Bozzelli,  Qiao Su,  Jemmie D. Cheng,  Audrey Lee,  Noelle S. Leary' : '[...]';
+              var ul_style = element.text() == '[...]' ? '0px dashed' : '1px dashed';
+              var cursorPosition = 0;
+              element.attr('style', 'border-bottom: '+ul_style);
+              // element.attr('title', more_authors_text);
+              var textAdder = setInterval(function(){
+                  element.html(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                  }
+              }, '-1');">[...]</span>,
+         Andreas R. Pfenning, Manolis Kellis, Li-Huei Tsai.
+    <i>Science Advances, 2023</i> </p> 
 
 
     <div class="paper-buttons">
@@ -1087,22 +2035,22 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Maria Kousi‡, <u>Carles A. Boix</u>‡, Yongjin P. Park, Hansruedi Mathys, Samuel Sledzieski, Zhuyu Peng, David A. Bennett, Li-Huei Tsai, Manolis Kellis. <i>BioRxiv, 2022</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Maria Kousi*, <u>Carles A. Boix</u>*, Yongjin P. Park, Hansruedi Mathys, Samuel Sledzieski, Zhuyu Peng, David A. Bennett, Li-Huei Tsai, Manolis Kellis. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    Maria Kousi*, <u>Carles A. Boix</u>*, Yongjin P. Park, Hansruedi Mathys, Samuel Sledzieski, Zhuyu Peng, David A. Bennett, Li-Huei Tsai, Manolis Kellis.
+    <i>BioRxiv, 2022</i> </p> 
 
 
     <div class="paper-buttons">
@@ -1136,22 +2084,92 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Suvi Linna-Kuosmanen‡, Eloi Schmauch‡, Kyriakitsa Galani, <u>Carles A Boix</u>, Lei Hou, Tiit Örd, Anu Toropainen, Lindsey K Stolze, Elamaran Meibalan, Julio C Mantero, Ashley Renfro, Johannes Ojanen, Leandro Z Agudelo, Maija Hollmen, Juho Jalkanen, Jarmo Gunn, Pasi Tavi, Casey E Romanoski, Calum A MacRae, Minna U Kaikkonen, Guillermo Garcia-Cardena, Tuomas Kiviniemi, Manolis Kellis. <i>BioRxiv, 2021</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Suvi Linna-Kuosmanen*, Eloi Schmauch*, Kyriakitsa Galani, <u>Carles A Boix</u>, Lei Hou, Tiit Örd, Anu Toropainen, Lindsey K Stolze, Elamaran Meibalan, Julio C Mantero, Ashley Renfro, Johannes Ojanen, Leandro Z Agudelo, Maija Hollmen, Juho Jalkanen, Jarmo Gunn, Pasi Tavi, Casey E Romanoski, Calum A MacRae, Minna U Kaikkonen, Guillermo Garcia-Cardena, Tuomas Kiviniemi, Manolis Kellis. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    
+        
+        
+        
+        
+        
+        <!-- Populate the first + last authors: -->
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+        Suvi Linna-Kuosmanen*, Eloi Schmauch*, Kyriakitsa Galani, <u>Carles A Boix</u>, <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <span class="more-authors" style="border-bottom: 1px dashed;" title="[...]" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '[...]' ? ' Lei Hou,  Tiit Örd,  Anu Toropainen,  Lindsey K Stolze,  Elamaran Meibalan,  Julio C Mantero,  Ashley Renfro,  Johannes Ojanen,  Leandro Z Agudelo,  Maija Hollmen,  Juho Jalkanen,  Jarmo Gunn,  Pasi Tavi,  Casey E Romanoski,  Calum A MacRae,  Minna U Kaikkonen' : '[...]';
+              var ul_style = element.text() == '[...]' ? '0px dashed' : '1px dashed';
+              var cursorPosition = 0;
+              element.attr('style', 'border-bottom: '+ul_style);
+              // element.attr('title', more_authors_text);
+              var textAdder = setInterval(function(){
+                  element.html(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                  }
+              }, '-1');">[...]</span>,
+         Guillermo Garcia-Cardena, Tuomas Kiviniemi, Manolis Kellis.
+    <i>BioRxiv, 2021</i> </p> 
 
 
     <div class="paper-buttons">
@@ -1185,22 +2203,22 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px"><u>Carles A. Boix</u>, Benjamin T. James, Yongjin P. Park, Wouter Meuleman, Manolis Kellis. <i>Nature, 2021</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- <u>Carles A. Boix</u>, Benjamin T. James, Yongjin P. Park, Wouter Meuleman, Manolis Kellis. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    <u>Carles A. Boix</u>, Benjamin T. James, Yongjin P. Park, Wouter Meuleman, Manolis Kellis.
+    <i>Nature, 2021</i> </p> 
 
 
     <div class="paper-buttons">
@@ -1238,22 +2256,22 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px"><i>One of many in GENCODE</i>. <i>Nucleic Acids Research, 2021</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- <i>One of many in GENCODE</i>. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    <i>One of many in GENCODE</i>.
+    <i>Nucleic Acids Research, 2021</i> </p> 
 
 
     <div class="paper-buttons">
@@ -1287,22 +2305,88 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Woo Jun Shim, Enakshi Sinniah, Jun Xu, Burcu Vitrinel, Michael Alexanian, Gaia Andreoletti, Sophie Shen, Yuliangzi Sun, Brad Balderson, <u>Carles Boix</u>, Guangdun Peng, Naihe Jing, Yuliang Wang, Manolis Kellis, Patrick PL Tam, Aaron Smith, Michael Piper, Lionel Christiaen, Quan Nguyen, Mikael Bodén, Nathan J Palpant. <i>Cell systems, 2020</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Woo Jun Shim, Enakshi Sinniah, Jun Xu, Burcu Vitrinel, Michael Alexanian, Gaia Andreoletti, Sophie Shen, Yuliangzi Sun, Brad Balderson, <u>Carles Boix</u>, Guangdun Peng, Naihe Jing, Yuliang Wang, Manolis Kellis, Patrick PL Tam, Aaron Smith, Michael Piper, Lionel Christiaen, Quan Nguyen, Mikael Bodén, Nathan J Palpant. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    
+        
+        
+        
+        
+        
+        <!-- Populate the first + last authors: -->
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+            <!-- TODO: Allow linking co-author's web pages , see al-folio for ideas -->
+            
+            
+        
+        Woo Jun Shim, Enakshi Sinniah, Jun Xu, Burcu Vitrinel, <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <!--  -->
+            
+            <span class="more-authors" style="border-bottom: 1px dashed;" title="[...]" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '[...]' ? ' Michael Alexanian,  Gaia Andreoletti,  Sophie Shen,  Yuliangzi Sun,  Brad Balderson,  &lt;u&gt;Carles Boix&lt;/u&gt;,  Guangdun Peng,  Naihe Jing,  Yuliang Wang,  Manolis Kellis,  Patrick PL Tam,  Aaron Smith,  Michael Piper,  Lionel Christiaen' : '[...]';
+              var ul_style = element.text() == '[...]' ? '0px dashed' : '1px dashed';
+              var cursorPosition = 0;
+              element.attr('style', 'border-bottom: '+ul_style);
+              // element.attr('title', more_authors_text);
+              var textAdder = setInterval(function(){
+                  element.html(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                  }
+              }, '-1');">[...]</span>,
+         Quan Nguyen, Mikael Bodén, Nathan J Palpant.
+    <i>Cell systems, 2020</i> </p> 
 
 
     <div class="paper-buttons">
@@ -1336,22 +2420,22 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">JE Moore, MJ Purcaro, HE Pratt, CB Epstein, N Shoresh, J Adrian, T Kawli, ... ENCODE Consortium (<i>one of many in ENCODE</i>). <i>Nature, 2020</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- JE Moore, MJ Purcaro, HE Pratt, CB Epstein, N Shoresh, J Adrian, T Kawli, ... ENCODE Consortium (<i>one of many in ENCODE</i>). -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    JE Moore, MJ Purcaro, HE Pratt, CB Epstein, N Shoresh, J Adrian, T Kawli, ... ENCODE Consortium (<i>one of many in ENCODE</i>).
+    <i>Nature, 2020</i> </p> 
 
 
     <div class="paper-buttons">
@@ -1385,22 +2469,22 @@
         
     </p>
 
-    <p style="font-size: 1.3rem; margin-bottom: 6px">Gabriel E. Leventhal, <u>Carles A. Boix</u>, Urs Kuechler, Tim N. Enke, Elzbieta Sliwerska, Christof Holliger, Otto X. Cordero. <i>Nature Microbiology, 2018</i> </p> 
+    <p style="font-size: 1.3rem; margin-bottom: 6px">
+    <!-- Gabriel E. Leventhal, <u>Carles A. Boix</u>, Urs Kuechler, Tim N. Enke, Elzbieta Sliwerska, Christof Holliger, Otto X. Cordero. -->
 
-    <!-- complicated author logic that requires an author_array -->
-    <!-- TODO: Update to use this so that I can link to co-authors -->
-    <!-- <div class="author"> -->
-    <!--      -->
+    
+    
 
-    <!--      -->
-    <!-- -->
+    <!-- TODO parameters in config instead: -->
+    
+    
+    
+    
 
-    <!---->
-    <!---->
-
-    <!---->
-    <!---->
-    <!-- </div> -->
+    <!-- Fix if conflict between shown and max authors -->
+    <!--  -->
+    Gabriel E. Leventhal, <u>Carles A. Boix</u>, Urs Kuechler, Tim N. Enke, Elzbieta Sliwerska, Christof Holliger, Otto X. Cordero.
+    <i>Nature Microbiology, 2018</i> </p> 
 
 
     <div class="paper-buttons">
