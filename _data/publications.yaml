@@ -1,4 +1,13 @@
 papers:
+  - title: "Single-cell multiregion dissection of Alzheimer’s disease"
+    authors: "Hansruedi Mathys‡, <u>Carles A. Boix‡</u>, Leyla Anne Akay‡, Ziting Xia, Jose Davila-Velderrain, Ayesha P. Ng, Xueqiao Jiang, Ghada Abdelhady, Kyriaki Galani, Julio Mantero, Neil Band, Benjamin T. James, Sudhagar Babu, Fabiola Galiana-Melendez, Kate Louderback, Dmitry Prokopenko, Rudolph E. Tanzi, David A. Bennett, Li-Huei Tsai, Manolis Kellis"
+    website: "https://www.nature.com/articles/s41586-024-07606-7"
+    journal: "Nature"
+    year: 2024
+    data: "http://compbio.mit.edu/ad_multiregion/"
+    code: "https://github.com/cboix/admultiregion_analysis/"
+    selected: y
+
 
   - title: "Neuronal DNA double-strand breaks lead to genome structural variations and 3D genome disruption in neurodegeneration"
     authors: "Vishnu Dileep‡, <u>Carles A. Boix</u>‡, Hansruedi Mathys, Asaf Marco, Gwyneth Margaret Welch, Hiruy S. Meharena, Anjanet Loon, Ritika Jeloka, Zhuyu Peng, David A. Bennett, Manolis Kellis, Li-Huei Tsai"

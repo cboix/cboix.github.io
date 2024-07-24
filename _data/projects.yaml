@@ -1,4 +1,29 @@
 projects:
+   - title: "Single-cell atlas of AD progression across brain regions"
+     url: "http://compbio.mit.edu/ad_multiregion"
+     thumbnail: "assets/projects/ad_multiregion/thumbnail.png"
+     selected: y
+
+   - title: "scdemon: module detection in scRNA-seq"
+     url: "http://github.com/KellisLab/scdemon"
+     thumbnail: "assets/projects/scdemon/thumbnail.png"
+     selected: y
+
+   - title: "Single-cell epigenomic landscape of AD"
+     url: "http://compbio.mit.edu/ad_epigenome" 
+     thumbnail: "assets/projects/ad_epigenome/thumbnail.png"
+     selected: y
+
+   - title: "Single-cell atlas of AD and aging PFC"
+     url: "http://compbio.mit.edu/ad_aging_brain"
+     thumbnail: "assets/projects/ad_aging_brain/thumbnail.png"
+     selected: y
+    
+   - title: "Genomic instability in neurodegeneration"
+     url: "http://compbio.mit.edu/ad_dna_damage"
+     thumbnail: "assets/projects/ad_dna_damage/thumbnail.png"
+     selected: y
+
    - title: "EpiMap data/resources"
      url: "http://compbio.mit.edu/epimap"
      thumbnail: "assets/projects/epimap/thumbnail.png"
@@ -9,18 +34,4 @@ projects:
      thumbnail: "assets/projects/epimap/thumbnail_browser.png"
      selected: y
 
-   - title: "Single-cell atlas of AD and aging PFC"
-     url: "http://compbio.mit.edu/ad_aging_brain"
-     thumbnail: "assets/projects/ad_aging_brain/thumbnail.png"
-     selected: y
-    
-   - title: "Single-cell epigenomic landscape of AD"
-     url: "http://compbio.mit.edu/ad_epigenome" 
-     thumbnail: "assets/projects/ad_epigenome/thumbnail.png"
-     selected: y
-
-   - title: "Genomic instability in neurodegeneration"
-     url: "http://compbio.mit.edu/ad_dna_damage"
-     thumbnail: "assets/projects/ad_dna_damage/thumbnail.png"
-     selected: y
 

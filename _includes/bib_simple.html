@@ -1,14 +1,14 @@
 <!-- _includes/bib_simple.html -->
 <div class="paper">
-    <p style="font-size: 1.5rem; margin-bottom: 6px" class="title"><b>{{ paper.title }}</b></p>
-    <!-- <p style="font-size: 1.5rem; margin-bottom: 6px" class="title"> -->
-    <!--     {% if paper.website %} -->
-    <!--     <!-1- NOTE: could be better in black: -1-> -->
-    <!--     <a href="{{ paper.website }}" target="_blank"><b>{{ paper.title }}</b></a> -->
-    <!--     {% else %} -->
-    <!--     <b>{{ paper.title }}</b> -->
-    <!--     {% endif %} -->
-    <!-- </p> -->
+    <!-- <p class="title">{{ paper.title }}</p> -->
+    <p class="title">
+        {% if paper.website %}
+        <!-- NOTE: could be better in black: -->
+        <a href="{{ paper.website }}" target="_blank">{{ paper.title }}</a>
+        {% else %}
+        <b>{{ paper.title }}</b>
+        {% endif %}
+    </p>
 
     <p style="font-size: 1.3rem; margin-bottom: 6px" >{{ paper.authors }}. <i>{{ paper.journal }}, {{ paper.year}}</i> </p> 
 
