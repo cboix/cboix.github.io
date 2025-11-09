@@ -226,3 +226,55 @@ h4 {
   max-width: 225px;
   box-sizing: border-box; }
 
+
+
+/* Figure captions */
+
+figcaption {
+  margin-bottom: 0.5em;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.95em; 
+  width: 100%;
+}
+
+/* Tables */
+table {
+  display: block;
+  margin-bottom: 1em;
+  width: 100%;
+  font-size: 0.9em;
+  border-collapse: collapse;
+  overflow-x: auto;
+  padding: 0.5em;
+
+  & + table {
+    margin-top: 1em;
+  }
+}
+
+thead {
+  border-bottom: 2px solid #7a8288FF;
+}
+
+th {
+  padding: 0.5em;
+  font-weight: bold;
+  text-align: left;
+}
+
+td {
+  padding: 0.5em;
+  border-bottom: 1px solid #7a8288DD;
+}
+
+
+tr,
+td,
+th {
+  vertical-align: middle;
+}
+
+/*JDV Zebra stripe table*/
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
