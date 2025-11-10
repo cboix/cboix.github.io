@@ -5,4 +5,10 @@ includes:    ./_includes
 collections:
   projects:
     output: true
+    # permalink: /:name/ # Will default to lowercase name
 
+defaults:
+  - scope:
+      path: "_projects"
+    values:
+      layout: project

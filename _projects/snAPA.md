@@ -2,6 +2,7 @@
 title: "Single-nucleus alternative polyadenylation repository"
 author_profile: false
 layout: project
+permalink: /snAPA/
 # layout: single
 excerpt: This is a repository for the data release for the paper on the landscape and regulation of alternative polyadenylation in the brain at the cell type level.
 ---
