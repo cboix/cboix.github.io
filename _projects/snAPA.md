@@ -11,7 +11,7 @@ excerpt: This is a repository for the data release for the paper on the landscap
 
 ##### Overview
 
-This is a supplementary website for: _Single-cell landscape and regulation of alternative polyadenylation in the brain_
+This is a supplementary website for: [_Single-cell profiling and genetic regulation of alternative polyadenylation in the human brain_](https://doi.org/10.1038/s41588-026-02758-w)
 
 We report a single-nucleus atlas of alternative polyadenylation (APA) of the aged human brain across 2 million cells from 379 human post-mortem brains across aged individuals with and without Alzheimer’s disease (AD).
 
