@@ -1,4 +1,9 @@
 projects:
+   - title: "Single-cell atlas of alternative polyadenylation in the brain"
+     url: "/snAPA"
+     thumbnail: "assets/projects/snAPA/thumbnail.png"
+     selected: y
+
    - title: "Single-cell atlas of AD progression across brain regions"
      url: "http://compbio.mit.edu/ad_multiregion"
      thumbnail: "assets/projects/ad_multiregion/thumbnail.png"

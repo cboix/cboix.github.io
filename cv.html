@@ -1,0 +1,17 @@
+---
+layout: default
+title: CV
+permalink: /cv/
+---
+<div class="docs-section" id="cv">
+  <h4>Curriculum Vitae</h4>
+  <p>
+    <a class="button" href="{{ site.data.main_info.cv | prepend: site.baseurl }}" download>Download PDF</a>
+    <a class="button" href="{{ site.data.main_info.cv | prepend: site.baseurl }}" target="_blank">Open in new tab</a>
+  </p>
+
+  <object class="cv-viewer" data="{{ site.data.main_info.cv | prepend: site.baseurl }}#view=FitH" type="application/pdf">
+    <p>Your browser can't display the PDF here.
+      <a href="{{ site.data.main_info.cv | prepend: site.baseurl }}" target="_blank">Open the CV</a> instead.</p>
+  </object>
+</div>

@@ -6,13 +6,134 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>{{ site.data.main_info.name }} | {{ page.title }}</title>
-  <meta name="description" content="Carles Boix Adsera">
-  <meta name="author" content="Carles Boix Adsera">
-  <meta property="og:title" content="Carles Boix Adsera" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://cboix.github.io" />
-  <meta property="og:site_name" content="Carles Boix Adsera" />
-  <link rel="canonical" href="https://cboix.github.io" />
+    <meta name="description" content="Carles A. Boix is a computational biologist at Harvard Medical School developing statistical genetics and mechanistic interpretability methods to map disease variants to molecular mechanisms in Parkinson's and Alzheimer's disease.">
+    <meta name="author" content="Carles A. Boix">
+    <meta property="og:title" content="Carles A. Boix | Computational biologist, Harvard Medical School" />
+    <meta property="og:description" content="Statistical genetics, mechanistic interpretability, and single-cell genomics of neurodegeneration." />
+    <meta property="og:type" content="profile" />
+    <meta property="og:url" content="https://cboix.github.io/" />
+    <meta property="og:image" content="https://cboix.github.io{{ site.data.main_info.profile_pic }}" />
+    <meta property="og:site_name" content="Carles A. Boix" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@carles_boix" />
+    <link rel="canonical" href="https://cboix.github.io" />
+
+    <!-- Schema.org structured data -->
+    {% if page.url == "/" or page.url == "/index.html" %}
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "@id": "https://cboix.github.io/#profilepage",
+        "url": "https://cboix.github.io/",
+        "name": "Carles A. Boix",
+        "mainEntity": {
+        "@type": "Person",
+        "@id": "https://cboix.github.io/#person",
+        "name": "Carles A. Boix",
+        "givenName": "Carles",
+        "additionalName": "A.",
+        "familyName": "Boix",
+        "alternateName": ["Carles Boix-Adserà", "Carles Boix Adsera"],
+        "description": "Computational biologist working on neurodegeneration, gene regulation, and the genetics of human disease.",
+        "disambiguatingDescription": "Computational biologist and human geneticist at Harvard Medical School (genetics, neurodegeneration, gene regulation); son of political scientist Carles Boix and economist Alícia Adserà.",
+        "jobTitle": "Postdoctoral Research Fellow",
+        "worksFor": {
+        "@type": "Organization",
+        "name": "Department of Biomedical Informatics, Harvard Medical School",
+        "parentOrganization": {
+            "@type": "CollegeOrUniversity",
+            "name": "Harvard Medical School",
+            "sameAs": "https://en.wikipedia.org/wiki/Harvard_Medical_School"
+        }
+        },
+        "alumniOf": [
+        {
+            "@type": "CollegeOrUniversity",
+            "name": "Massachusetts Institute of Technology",
+            "sameAs": "https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology"
+        },
+        {
+            "@type": "CollegeOrUniversity",
+            "name": "Princeton University",
+            "sameAs": "https://en.wikipedia.org/wiki/Princeton_University"
+        }
+        ],
+        "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "degree",
+        "name": "Ph.D. in Computational and Systems Biology",
+        "recognizedBy": { "@type": "CollegeOrUniversity", "name": "Massachusetts Institute of Technology" }
+        },
+        "knowsAbout": [
+        "Statistical genetics",
+        "Human genetics",
+        "Computational biology",
+        "Pleiotropy",
+        "Mechanistic interpretability",
+        "Protein language models",
+        "Alternative polyadenylation",
+        "Single-cell genomics",
+        "Epigenomics",
+        "Parkinson's disease",
+        "Alzheimer's disease"
+        ],
+        "image": "https://cboix.github.io{{ site.data.main_info.profile_pic }}",
+        "url": "https://cboix.github.io/",
+        "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0001-9212-856X"
+        },
+        "sameAs": [
+        "https://www.wikidata.org/wiki/Q91705112",
+        "https://orcid.org/0000-0001-9212-856X",
+        "https://scholar.google.com/citations?user=lC_JXBgAAAAJ",
+        "https://x.com/carles_boix",
+        "https://dbmi.hms.harvard.edu/people/carles-boix",
+        "https://connects.catalyst.harvard.edu/Profiles/display/Person/211081"
+        ],
+        "parent": [
+        {
+            "@type": "Person",
+            "name": "Carles Boix",
+            "jobTitle": "Political scientist",
+            "sameAs": [
+            "https://en.wikipedia.org/wiki/Carles_Boix",
+            "https://x.com/boixserra",
+            "https://scholar.google.com/citations?user=5s3gY2MAAAAJ",
+            "https://www.wikidata.org/wiki/Q16178904"
+            ]
+        },
+        {
+            "@type": "Person",
+            "name": "Alícia Adserà",
+            "jobTitle": "Economist and demographer",
+            "sameAs": [
+            "https://opr.princeton.edu/people/al%C3%ADcia-adser%C3%A0",
+            "https://adsera.scholar.princeton.edu/",
+            "https://spia.princeton.edu/faculty/adsera",
+            "https://www.wikidata.org/wiki/Q29570884",
+            "https://scholar.google.com/citations?user=ZRNFU7cAAAAJ"
+            ]
+        }
+        ],
+        "sibling": [
+        {
+            "@type": "Person",
+            "name": "Enric Boix-Adserà",
+            "url": "https://eboix.github.io/",
+            "sameAs": [
+            "https://scholar.google.com/citations?user=KOZSrE8AAAAJ",
+            "https://openreview.net/profile?id=~Enric_Boix-Adser%C3%A01",
+            "https://dblp.org/pid/238/0265.html"
+            ]
+        }
+        ]
+        }
+        }
+    </script>
+    {% endif %}
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -72,7 +193,7 @@
           <div class="row">
               <div class="three columns">
                   <div class="u-capped-width">
-                      <a href="{{ site.baseurl }}/"><img class="u-max-full-width" src='{{ site.baseurl }}{{ site.data.main_info.profile_pic }}'></a>
+                      <a href="{{ site.baseurl }}/"><img class="u-max-full-width" src='{{ site.baseurl }}{{ site.data.main_info.profile_pic }}' alt="Carles A. Boix, computational biologist at Harvard Medical School"></a>
                   </div>
               </div>
               <div class="nine columns main-description">
@@ -84,17 +205,28 @@
                   <!-- <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer"> -->
                   <!--   <i class="fa fa-linkedin-square" aria-hidden="true"></i> -->
                   <!-- </span> -->
-                  <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-                      <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </span>
-
-                  <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
-                      <i class="fa fa-github" aria-hidden="true"></i>
-                  </span>
-
-                  <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-                      <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
-                  </span>
+                <!--   <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer"> -->
+                <!--       <i class="fa fa-twitter" aria-hidden="true"></i> -->
+                <!--   </span> -->
+                <!---->
+                <!--   <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer"> -->
+                <!--       <i class="fa fa-github" aria-hidden="true"></i> -->
+                <!--   </span> -->
+                <!---->
+                <!--   <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer"> -->
+                <!--       <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i> -->
+                <!--   </span> -->
+                <!-- <a href="{{ site.data.main_info.orcid }}" target="_blank" rel="me" style="color: inherit" title="ORCID"> -->
+                <!--     <i class="ai ai-orcid ai-lg" aria-hidden="true"></i> -->
+                <!-- </a> -->
+                <!-- <a href="{{ site.data.main_info.cv | prepend: site.baseurl }}" target="_blank" style="color: inherit" title="CV"> -->
+                <!--     <i class="ai ai-cv ai-lg" aria-hidden="true"></i> -->
+                <!-- </a> -->
+            <a class="social-icon" href="{{ site.data.main_info.github }}" target="_blank" rel="me" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a class="social-icon" href="{{ site.data.main_info.google_scholar }}" target="_blank" rel="me" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+            <a class="social-icon" href="{{ site.data.main_info.orcid }}" target="_blank" rel="me" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>
+            <!-- <a class="social-icon" href="{{ site.data.main_info.cv | prepend: site.baseurl }}" target="_blank" title="CV"><i class="ai ai-cv" aria-hidden="true"></i></a> -->
+            <a class="social-icon" href="{{ '/cv/' | prepend: site.baseurl }}" title="CV"><i class="ai ai-cv" aria-hidden="true"></i></a>
                   </p>
               </div>
           </div>
@@ -107,7 +239,8 @@
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resources" | prepend: site.baseurl }}>Resources</a></li>
-          <!-- <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Resume</a></li> -->
+          <!-- <li class="navbar-item"><a class="navbar-link" href="{{ site.data.main_info.cv | prepend: site.baseurl }}" target="_blank">CV</a></li> -->
+          <li class="navbar-item"><a class="navbar-link" href="{{ '/cv/' | prepend: site.baseurl }}">CV</a></li>
         </ul>
       </div>
     </nav>
@@ -123,18 +256,11 @@
           {{ site.data.main_info.email }}
         </div>
         <div class="four columns">
-          <!-- <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer"> -->
-          <!--   <i class="fa fa-twitter" aria-hidden="true"></i> -->
-          <!-- </span> -->
-          <!-- <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer"> -->
-          <!--   <i class="fa fa-linkedin-square" aria-hidden="true"></i> -->
-          <!-- </span> -->
-          <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
-            <i class="fa fa-github" aria-hidden="true"></i>
-          </span>
-          <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-            <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
-          </span>
+            <a class="social-icon" href="{{ site.data.main_info.github }}" target="_blank" rel="me" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a class="social-icon" href="{{ site.data.main_info.google_scholar }}" target="_blank" rel="me" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+            <a class="social-icon" href="{{ site.data.main_info.orcid }}" target="_blank" rel="me" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>
+            <a class="social-icon" href="{{ site.data.main_info.cv | prepend: site.baseurl }}" target="_blank" title="CV"><i class="ai ai-cv" aria-hidden="true"></i></a>
+            <a class="social-icon" href="{{ site.data.main_info.twitter }}" target="_blank" rel="me" title="X / Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>

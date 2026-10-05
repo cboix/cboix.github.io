@@ -2,7 +2,10 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/snAPA/</loc>
-<lastmod>2025-11-10T11:50:06-05:00</lastmod>
+<lastmod>2026-10-05T12:59:53-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/cv/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
@@ -12,6 +15,10 @@
 </url>
 <url>
 <loc>http://localhost:4000/assets/publications/scholar.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/cv/Carles_A_Boix_CV.pdf</loc>
+<lastmod>2026-10-04T22:07:07-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/google1abe8cfe4c3a2bd7.html</loc>
